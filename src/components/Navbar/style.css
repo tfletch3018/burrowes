@@ -1,0 +1,35 @@
+:root {
+--light:#ffffff;
+--smoky:#737373;
+--periwinkle:#ccccff;;
+--mint:#ccffe6;
+--forest:#00994d;
+
+}
+
+.myNav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--periwinkle);
+}
+.navHeader {
+    float: left;
+    padding: 12px
+}
+.navLinks {
+    color: var(--light);
+    text-shadow: 3px 3px 7px var(--smoky);
+    text-decoration: none;
+    font-size: 20px;
+    display:block;
+    float: right;
+    padding: 12px 20px 12px 3px;
+}
+.navLinks:hover {
+    text-decoration: none;
+    color: var(--forest);
+}
+.navLinks:active, :focus {
+color: var(--mint);
+}

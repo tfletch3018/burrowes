@@ -6,13 +6,15 @@ function Navbar() {
     return (
 
         <div>
-            <nav className=''>
+            <nav className='myNav'>
 
-                <Link to="/">Reynold Burrowes</Link> {" "}
-                <Link to="/books">Books</Link>
-                <Link to="/bio">Bio</Link>
-                <Link to="/events">Events</Link>
+                <Link to="/" className="navHeader">Reynold Burrowes</Link> {" "}
+                <Link to="/events" className="navLinks">Events</Link>
+                <Link to="/bio" className="navLinks">Bio</Link>
+                <Link to="/books" className="navLinks">Books</Link>
+
             </nav>
+
             <Outlet />
 
         </div>
