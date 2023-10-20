@@ -1,3 +1,15 @@
+:root {
+  --light: #ffffff;
+  --sandy: #999966;
+  --smoky: #737373;
+  --periwinkle: #ccccff;
+  --mint: #ccffe6;
+  --forest: #00994d;
+  --jade: #004d1a;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,3 +41,27 @@ code {
   background-position: center center;
   z-index: -1;
  }
+.booksContainer {
+  margin-top: 30px;
+}
+#booksHeader {
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+
+  color: var(--smoky);
+  text-shadow: 2px 3px 7px var(--light), 2px 3px 7px var(--jade) ;
+ }
+ #books {
+  font-size: 25px;
+  font-family: 'Lobster', sans-serif;
+  color: var(--light);
+  text-shadow:  2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+ }
+ #booksTitle {
+  font-family: 'Lobster', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--light);
+  text-shadow:  2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+}
+

@@ -1,0 +1,8 @@
+.grid-container {
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+}
