@@ -1,33 +1,29 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Card1, Card2, Card3, Card4, Card5 } from '../Card/index';
 import './style.css';
 
 function BooksTable() {
     return (
-
-        <Container className="grid-container">
-            <Row>
-                <Col size='sm-4'>
-                    <div class="text-center">1</div>
-                </Col>
-                <Col size='sm-4'>
-                    <div class="text-center">2</div>
-                </Col>
-                <Col size='sm-4'>
-                    <div class="text-center">3</div>
-                </Col>
-            </Row>
-            <br />
-            <Row class="">
-                <Col size='sm-6'>
-                    <div class="text-center">4</div>
-                </Col>
-                <Col size='sm-6'>
-                    <div class="text-center">5</div>
-                </Col>
-            </Row>
-        </Container>
+<div className="container">
+  <div className="row">
+    <div className="col">
+      <Card1 />     
+    </div>
+    <div className="col">
+      <Card2 />
+    </div>
+  </div>
+  <div className="row">
+    <div className="col">
+      <Card3 />
+    </div>
+    <div className="col">
+      <Card4 />
+    </div>
+    <div className="col">
+      <Card5 />
+    </div>
+  </div>
+</div>
     )
 }
 
