@@ -10,7 +10,7 @@ function Home() {
             <h1 className='text-center'>Reynold Burrowes</h1>
             <p className='text-center'>You've reached the Home Page!!</p>
         </div>
-        </Container>
+        </Container> 
     )
 }
 

@@ -8,10 +8,22 @@ function Navbar() {
         <div>
             <nav className='myNav'>
 
-                <Link to="/" className="navHeader">Reynold Burrowes</Link> {" "}
-                <Link to="/events" className="navLinks">Events</Link>
-                <Link to="/bio" className="navLinks">Bio</Link>
-                <Link to="/books" className="navLinks">Books</Link>
+                <Link to="/"
+                    className="navHeader">
+                    Reynold Burrowes
+                </Link> {" "}
+                <Link to="/events"
+                    className="navLinks">
+                    Events
+                </Link>
+                <Link to="/bio"
+                    className="navLinks">
+                    Bio
+                </Link>
+                <Link to="/books"
+                    className="navLinks">
+                    Books
+                </Link>
 
             </nav>
 
