@@ -10,7 +10,7 @@ function Home() {
         <>
             <Container>
                 <div className=''>
-                    <h1 id='booksHeader' className='text-center'>Coming Soon...</h1>
+                    <h1 id='booksHeader' className='text-center'>Discover</h1>
                 </div>
             </Container>
 

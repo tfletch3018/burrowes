@@ -9,10 +9,17 @@ function Books() {
         <>
             <Container>
                 <div className='booksContainer'>
-                    <h1 className='text-center' id="booksHeader">Discover Books
-                        <span id="books"> by</span>
-                        <span id="booksTitle"> Reynold Burrowes</span>
+                    <h1 className='text-center' id="booksHeader">Discover More Books
                     </h1>
+                    <h2 className='text-center'>
+                    <span className="text-center"
+                        id="books">
+                        by
+                    </span>
+                    <span id="booksTitle">
+                        Reynold Burrowes
+                    </span>
+                </h2>
                 </div>
             </Container>
 
