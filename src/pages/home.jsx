@@ -1,16 +1,30 @@
 import Container from 'react-bootstrap/Container';
 import '../index.css';
+import { Link } from "react-router-dom";
+import newbook from '../images/newbook.jpg';
 
 function Home() {
 
     return (
 
+        <>
         <Container>
         <div className=''>
-            <h1 className='text-center'>Reynold Burrowes</h1>
-            <p className='text-center'>You've reached the Home Page!!</p>
+            <h1 id='booksHeader'className='text-center'>Coming Soon...</h1>
         </div>
         </Container> 
+
+<Container>
+<img src={newbook} alt="" />
+<div className='centered'>
+    <Link to="/events">
+<button id='bookButton'>
+    Discover
+    </button>
+    </Link>
+</div>
+</Container>
+        </>
     )
 }
 
