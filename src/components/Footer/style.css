@@ -1,0 +1,17 @@
+i.fab {
+    color: var(--sky);
+    text-shadow: 2px 3px 7px var(--chocolate), 2px 3px 7px var(--mint) ;
+    font-size: 30px;
+    font-weight:bolder;
+    text-align: center;
+    padding: 30px;
+}
+i.fab:hover {
+    color: var(--beige);
+}
+nav#footer.navbar.fixed-bottom.bg-body-tertiary {
+    justify-content:flex-end;
+}
+#footer {
+background-color: transparent !important;
+}

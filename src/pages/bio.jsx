@@ -17,9 +17,7 @@ function Bio() {
                 </h1>
                 <h2 className='text-center'>
                     <span className="text-center"
-                        id="books">
-                        meet
-                    </span>
+                        id="books">meet </span>
                     <span id="booksTitle">
                         Reynold Burrowes
                     </span>

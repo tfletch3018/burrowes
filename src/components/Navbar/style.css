@@ -11,8 +11,8 @@
     font-family: 'Lobster', sans-serif;
     font-size: 50px;
     text-decoration: none;
-    color: var(--light);
-    text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+    color: var(--sky);
+    text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
 }
 
 .navHeader:hover {
@@ -26,8 +26,8 @@
 }
 
 .navLinks {
-    color: var(--smoky);
-    text-shadow: 2px 3px 7px var(--light), 2px 3px 7px var(--jade);
+    color: var(--beige);
+    text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate) ;
     text-decoration: none;
     font-family: 'Anton', sans-serif;
     font-size: 25px;
@@ -38,7 +38,7 @@
 
 .navLinks:hover {
     text-decoration: none;
-    color: var(--forest);
+    color: var(--sky);
 }
 
 .navLinks:active,

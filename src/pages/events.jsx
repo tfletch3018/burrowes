@@ -18,8 +18,7 @@ function Events() {
                     </h1>
                     <h2 className='text-center'>
                         <span className="text-center"
-                            id="books">by
-                        </span>
+                            id="books">from </span>
                         <span id="booksTitle">
                             Reynold Burrowes
                         </span>
