@@ -42,6 +42,19 @@ code {
   background-position: center center;
   z-index: -1;
  }
+
+ .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ #homePic {
+  margin:15px 55px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
+}
+
 .booksContainer {
   margin-top: 30px;
 }
@@ -72,7 +85,6 @@ code {
   height: 500px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
-
 #author {
   color: var(--light);
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
@@ -83,11 +95,10 @@ code {
 }
 #author:hover {
   box-shadow: 5px 7px 9px 1px var(--light);
-
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#eventsPic {
+  margin:15px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
 }
