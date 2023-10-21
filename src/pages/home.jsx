@@ -27,6 +27,9 @@ function Home() {
                             Discover
                         </button>
                     </Link>
+
+                    <br />
+                    
                 </div>
             </Container>
         </>
