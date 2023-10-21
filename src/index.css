@@ -2,7 +2,7 @@
   --light: #ffffff;
   --sandy: #999966;
   --smoky: #737373;
-  --periwinkle: #ccccff;
+  --periwinkle:#ccccff;
   --mint: #ccffe6;
   --forest: #00994d;
   --jade: #004d1a;
@@ -27,7 +27,7 @@ code {
  #hero {
   position: relative;
   width: 100vw;
-  height: 100vw;
+  min-height: 100vh;
  }
  #hero::before {
   content: "";
@@ -48,7 +48,6 @@ code {
 #booksHeader {
   font-family: 'Anton', sans-serif;
   font-size: 60px;
-
   color: var(--smoky);
   text-shadow: 2px 3px 7px var(--light), 2px 3px 7px var(--jade) ;
  }
@@ -63,6 +62,27 @@ code {
   font-size: 30px;
   text-decoration: none;
   color: var(--light);
-  text-shadow:  2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+}
+
+#profilePic{
+  margin:15px 55px;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
+}
+
+#author {
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  margin-top: 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, var(--forest), var(--mint));
+  box-shadow: 5px 7px 9px 1px var(--mint);
+}
+#author:hover {
+  box-shadow: 5px 7px 9px 1px var(--light);
+
 }
 

@@ -7,7 +7,7 @@ import book4 from './images/book4.jpg';
 import book5 from './images/book5.jpg';
 
 
-    const Card1 = () => {
+const Card1 = () => {
     return (
         <Container>
             <div className='card'>
@@ -59,12 +59,11 @@ const Card4 = () => {
     )
 }
 
-
 const Card5 = () => {
     return (
         <Container>
             <div className='card'>
-                <img id="book" src={book5} alt="" />
+                <img id="book" src={book5} alt="A Destiny to Mould" />
                 <button id="bookButton" className='center'>
                     Button
                 </button>
@@ -72,6 +71,7 @@ const Card5 = () => {
         </Container>
     )
 }
+
 export {
     Card1,
     Card2,

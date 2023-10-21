@@ -1,8 +1,3 @@
-.grid-container {
-    margin-top: 40px;
-}
-
-.grid-container > div {
-    width: 250px;
-    margin: 5px;
+#bookContainer {
+    margin-top: 25px;
 }
