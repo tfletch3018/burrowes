@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import social from "../social";
 import newbook from '../images/newbook.jpg';
 import '../index.css';
 
@@ -30,9 +31,15 @@ function Events() {
                 <Row>
                     <Col><img id='eventsPic' src={newbook} alt="" />
                         <div className='centered'>
-                            <button id='bookButton'>
-                                A Note to Publishers
-                            </button>
+                            {
+                                social.intentletter &&
+                                <a title="A Note to Publishers"
+                                    href={social.intentletter} download>
+                                    <button id='bookButton'>
+                                        A Note to Publishers
+                                    </button>
+                                </a>
+                            }
                         </div>
                     </Col>
                     <Col>
