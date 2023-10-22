@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import './style.css';
+import { Link } from "react-router-dom";
 import book1 from './images/book1.jpg';
 import book2 from './images/book2.jpg';
 import book3 from './images/book3.jpg';
@@ -12,9 +13,11 @@ const Card1 = () => {
         <Container>
             <div className='card'>
                 <img id="book" src={book1} alt="I Never Said Goodbye" />
+                <Link to="/books/bookone">
                 <button id="bookButton" className='center'>
                     Button
                 </button>
+                </Link>
             </div>
         </Container>
     )
@@ -25,9 +28,11 @@ const Card2 = () => {
         <Container>
             <div className='card'>
                 <img id="book" src={book2} alt="Travels Near and Far" />
+                <Link to="/books/booktwo">
                 <button id="bookButton" className='center'>
                     Button
-                </button>
+                </button>                
+                </Link>
             </div>
         </Container>
     )
@@ -38,9 +43,11 @@ const Card3 = () => {
         <Container>
             <div className='card'>
                 <img id="book" src={book3} alt="" />
-                <button id="bookButton" className='center'>
+                <Link to="/books/bookthree">
+               <button id="bookButton" className='center'>
                     Button
-                </button>
+                </button>                
+                </Link>
             </div>
         </Container>
     )
@@ -51,9 +58,11 @@ const Card4 = () => {
         <Container>
             <div className='card'>
                 <img id="book" src={book4} alt="" />
+                <Link to="/books/bookfour">
                 <button id="bookButton" className='center'>
                     Button
                 </button>
+                </Link>
             </div>
         </Container>
     )
@@ -64,9 +73,11 @@ const Card5 = () => {
         <Container>
             <div className='card'>
                 <img id="book" src={book5} alt="A Destiny to Mould" />
+                <Link to="/books/bookfive">
                 <button id="bookButton" className='center'>
                     Button
                 </button>
+                </Link>
             </div>
         </Container>
     )
