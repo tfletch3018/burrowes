@@ -9,9 +9,20 @@ i.fab {
 i.fab:hover {
     color: var(--beige);
 }
-nav#footer.navbar.fixed-bottom.bg-body-tertiary {
+/* nav#footer.navbar.fixed-bottom.bg-body-tertiary {
     justify-content:flex-end;
-}
+} */
 #footer {
 background-color: transparent !important;
+}
+.footNav {
+    position: static;
+    bottom: 0;
+    font-size: 1.2rem;
+    left: 0;
+    padding: 1rem;
+    justify-content:flex-end;
+
+    text-align: center;
+    width: 100%;
 }

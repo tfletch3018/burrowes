@@ -5,8 +5,10 @@ function Footer() {
 
     return (
 
-        <nav id="footer" className="navbar fixed-bottom bg-body-tertiary">
-            
+        // <nav id="footer" className="navbar fixed-bottom bg-body-tertiary">
+        <nav id="footer" className="footNav">
+
+        
             <ul className="nav justify-content-center">
                 <li className="nav-item">
                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank" href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
