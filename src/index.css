@@ -124,3 +124,13 @@ code {
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
+
+#bookPics {
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
+}
+
+.getIt {
+  margin-top: 10px;
+}

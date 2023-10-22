@@ -13,23 +13,17 @@ function Book3() {
 
                 <Container>
                     <Row>
-                        <h1 className="text-center">Project One</h1>
-                    </Row>
-                </Container>
-
-                <Container>
-                    <Row>
-                        <div className="center">
+                        <div className="centered">
                             <Link to="/books">
-                                <button id="">Go Back</button>
+                                <button id="bookButton">Go Back</button>
                             </Link>
                         </div>
                     </Row>
                 </Container>
 
                 <Container>
-                    <Row>
-                        <Col><img id="" src={book3} alt="" /></Col>
+                    <Row id="author">
+                        <Col><img id="bookPics" src={book3} alt="" /></Col>
                         <Col>
                             <h1>Some Text Here</h1>
                             <p>
@@ -41,17 +35,18 @@ function Book3() {
                                 at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu. 
                                 Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque, 
                                 bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur, 
-                                lacinia arcu ac, porta ex. Curabitur arcu neque, mattis ultricies orci id, aliquam ultrices enim. 
-                                Aliquam vel feugiat tellus, ut consectetur lectus. Vestibulum commodo vulputate nisi quis pretium. 
-                                Nullam posuere dui id urna consequat, at lobortis elit finibus. Morbi quis elit ac lacus aliquam pretium. 
-                                Sed dolor metus, rhoncus in risus ultrices, dignissim maximus eros. Phasellus at laoreet sem, nec suscipit lectus. 
-                                Quisque molestie dictum ex quis egestas. Integer feugiat blandit sem, id cursus libero congue a.
-                                Phasellus venenatis feugiat mauris nec mattis. Proin interdum suscipit lectus, in accumsan lectus vulputate ac. 
-                                Sed lacinia nisi in odio consectetur, non tincidunt tortor commodo. Cras lorem libero, bibendum sed varius in, 
-                                tincidunt sit amet mauris. Aliquam ultricies felis in nunc mollis sagittis. Fusce non posuere diam. Etiam finibus 
-                                libero id mauris dapibus, at malesuada leo cursus. Curabitur et elit eget ligula scelerisque rhoncus.
-                            </p>
+                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
+                            </p>                       
                         </Col>
+                    </Row>
+                </Container>
+                <Container>
+                    <Row>
+                        <div className="centered">
+                            <Link to="/books">
+                                <button id="bookButton" className='getIt'>Get the Book! <i class='fas fa-credit-card'></i></button>
+                            </Link>
+                        </div>
                     </Row>
                 </Container>
 
