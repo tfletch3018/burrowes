@@ -34,12 +34,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- #hero {
+ .hero {
   position: relative;
   width: 100vw;
   min-height: 100vh;
  }
- #hero::before {
+ .hero::before {
   content: "";
   position: absolute;
   top: 0;

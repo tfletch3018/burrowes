@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import { Outlet } from 'react-router-dom';
 import './index.css';
 import Navbar from '../src/components/Navbar';
 import Home from './pages/home';
@@ -23,6 +22,7 @@ function App() {
 
   return (
 
+    <div className='hero'>
     <HashRouter>
 
       <Navbar />
@@ -42,8 +42,8 @@ function App() {
       </Routes>
 
       <Footer />
-      {/* <Outlet /> */}
     </HashRouter>
+    </div>
   )
 }
 

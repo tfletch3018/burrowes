@@ -43,7 +43,7 @@ function Book2() {
                     <Row>
                         <div className="centered">
                             <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book! <i class='fas fa-credit-card'></i></button>
+                                <button id="bookButton" className='getIt'>Get the Book! <i className='fas fa-credit-card'></i></button>
                             </Link>
                         </div>
                     </Row>
