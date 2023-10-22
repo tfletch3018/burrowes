@@ -9,7 +9,7 @@ function Book3() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container fluid style={{ marginTop: 20 }}>
 
                 <Container>
                     <Row>

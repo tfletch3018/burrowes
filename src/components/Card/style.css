@@ -1,13 +1,19 @@
 .card {
     min-height: 300px;
-    width: 200px;
+    width: 240px;
     border-radius: 5px;
-    border-color: transparent !important;
-    padding: 2px 16px;
 }
 
 div.card {
     background-color: transparent;
+    box-shadow: 7px 8px 12px var(--mint);
+    border-color: transparent !important;
+    background-image: linear-gradient(to right, var(--jade), var(--mint),  var(--beige));
+    padding: 9px 17px;    
+}
+
+div.card:hover {
+    box-shadow: 7px 8px 12px var(--jade);
 }
 
 #book {

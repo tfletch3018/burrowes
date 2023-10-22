@@ -9,7 +9,7 @@ function Book1() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container id="bigBookPic" fluid>
 
                 <Container>
                     <Row>
