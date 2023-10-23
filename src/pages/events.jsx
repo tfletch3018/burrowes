@@ -26,7 +26,7 @@ function Events() {
                 </div>
             </Container>
 
-            <Container id="author">
+            <Container id="authorBio">
                 <Row>
                     <Col><img id='eventsPic' src={newbook} alt="" />
                         <div className='centered'>

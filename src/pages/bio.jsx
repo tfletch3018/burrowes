@@ -24,10 +24,10 @@ function Bio() {
                 </h2>
             </div>
         </Container>
-<Container id="author">
+<Container id="authorBio">
 <Row>
                         <Col><img id="profilePic" src={profile} alt="" /></Col>
-                        <Col>
+                        <Col id="bookText">
                             <h1>Some Text Here</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam 

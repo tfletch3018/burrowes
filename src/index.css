@@ -1,23 +1,24 @@
 :root {
   --light: #ffffff;
-  --beige:#fff2e6;
-  --peachy:#ffd9b3;
+  --beige: #fff2e6;
+  --peachy: #ffd9b3;
   --sandy: #999966;
   --fog: #cccccc;
-  --gray:#6f766f;
+  --gray: #6f766f;
   --smoky: #737373;
-  --dusty:#292f26;
+  --dusty: #292f26;
   --sky: #c7d8eb;
-  --periwinkle:#ccccff;
+  --periwinkle: #ccccff;
   --mint: #ccffe6;
-  --tree:#869544;
-  --cammo:#586539;
-  --grassy:#009933;
+  --tree: #869544;
+  --cammo: #586539;
+  --grassy: #009933;
   --forest: #00994d;
   --jade: #004d1a;
-  --chocolate:#993300;
+  --chocolate: #993300;
   --rosy: #ff0066;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
@@ -36,12 +37,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- .hero {
+
+.hero {
   position: relative;
   width: 100vw;
   min-height: 100vh;
- }
- .hero::before {
+}
+
+.hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -53,16 +56,16 @@ code {
   background-size: cover;
   background-position: center center;
   z-index: -1;
- }
+}
 
- .centered {
+.centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
- #homePic {
-  margin:15px 55px;
+#homePic {
+  margin: 15px 55px;
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
@@ -70,31 +73,38 @@ code {
 .booksContainer {
   margin-top: 30px;
 }
+
 #bookButton {
-  border-radius: 5px;
-  border-color: transparent;
-  background-color: transparent;
-  color: var(--light);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
-  box-shadow: 7px 8px 10px var(--mint);
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+    color: var(--light);
+    font-size: 18px;
+    font-weight:500;
+    text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+    box-shadow: 7px 8px 10px var(--mint);
 }
+
 #bookButton:hover {
   color: var(--mint);
   box-shadow: 5px 7px 9px var(--light);
 }
+
 #booksHeader {
   font-family: 'Anton', sans-serif;
   font-size: 60px;
   color: var(--beige);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate) ;
- }
- #books {
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
+}
+
+#books {
   font-size: 25px;
   font-family: 'Lobster', sans-serif;
   color: var(--light);
-  text-shadow:  2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
- }
- #booksTitle {
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+}
+
+#booksTitle {
   font-family: 'Lobster', sans-serif;
   font-size: 35px;
   text-decoration: none;
@@ -102,44 +112,63 @@ code {
   text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
 }
 
-#profilePic{
-  margin:15px 55px;
+#profilePic {
+  margin: 15px 55px;
   border-radius: 10px;
   width: 300px;
   height: 500px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
+
+.bigBookPic {
+  margin-top: 30px;
+}
+
 #author {
+  margin: 5px 3px;
   font-family: 'Anton', sans-serif;
-font-size: 16px;
+  font-size: 16px;
   color: var(--light);
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
-  margin-top: 25px;
   border-radius: 10px;
   background-image: linear-gradient(to top, var(--chocolate), var(--beige));
   box-shadow: 7px 8px 10px 3px var(--mint);
 }
+
 #author:hover {
   box-shadow: 7px 8px 10px 3px var(--sky)
 }
 
+#authorBio {
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  border-radius: 10px;
+  background-image: linear-gradient(to top, var(--chocolate), var(--beige));
+  box-shadow: 7px 8px 10px 3px var(--mint);
+
+}
+
 #eventsPic {
-  margin:15px;
+  margin: 15px;
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
 
 #bookPics {
   margin-top: 25px;
+  margin-left: 30px;
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
+  margin-bottom: 15px;
+}
+
+#bookText {
+  margin-top: 15px;
+  /* margin-right: 10px; */
 }
 
 .getIt {
   margin-top: 10px;
-}
-
-#bigBookPic {
-  margin-top: 20px;
-  min-height: 700px;
 }

@@ -24,7 +24,7 @@ function Book5() {
                 <Container>
                     <Row id="author">
                         <Col><img id="bookPics" src={book5} alt="" /></Col>
-                        <Col>
+                        <Col id="bookText">
                             <h1>Some Text Here</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam

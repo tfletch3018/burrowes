@@ -9,7 +9,7 @@ function Book1() {
 
     return (
         <div>
-            <Container id="bigBookPic" fluid>
+            <Container fluid>
 
                 <Container>
                     <Row>
@@ -21,10 +21,10 @@ function Book1() {
                     </Row>
                 </Container>
 
-                <Container>
+                <Container className='bigBookPic'>
                     <Row id="author">
                         <Col><img id="bookPics" src={book1} alt="" /></Col>
-                        <Col>
+                        <Col id="bookText">
                             <h1>Some Text Here</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam
