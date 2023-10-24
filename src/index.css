@@ -63,7 +63,11 @@ code {
   justify-content: center;
   align-items: center;
 }
-
+#centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #homePic {
   margin: 15px 55px;
   border-radius: 10px;
@@ -96,7 +100,12 @@ code {
   color: var(--beige);
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
 }
-
+#booksSubHeader {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: var(--beige);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
+}
 #books {
   font-size: 25px;
   font-family: 'Lobster', sans-serif;
