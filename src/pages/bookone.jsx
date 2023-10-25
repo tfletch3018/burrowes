@@ -25,28 +25,27 @@ function Book1() {
                     <Row id="author">
                         <Col><img id="bookPics" src={book1} alt="" /></Col>
                         <Col id="bookText">
-                            <h1>Some Text Here</h1>
+                            <h1 id="bookTitle">I Never Said Goodbye</h1>
+                            <br />
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam
-                                ac eleifend. Nam et libero id lacus mollis blandit eu vel urna. Nulla turpis sapien, malesuada
-                                a blandit nec, tincidunt nec quam. Praesent dictum ullamcorper augue vitae dapibus. Maecenas gravida
-                                quam nec iaculis mattis. Nam iaculis semper quam a iaculis. Aenean in tincidunt nisi. Phasellus a venenatis
-                                enim. Fusce semper tincidunt tristique. Phasellus cursus, magna in aliquam ornare, turpis turpis maximus nunc,
-                                at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu.
-                                Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque,
-                                bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur,
-                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
+                                "This is the story of one man's return to Guyana, the land of his youth. His return was 35 years in the making,
+                                back to the country he never expected to leave. Reynold Burrowes travelled to Guyana with others who,
+                                like him, were Guyanese expats hoping to reconnect with family members and old friends. The visit exceeded all
+                                expectations and was both eye-opening and overwhelming. This memoir tells a familiar tale of those who dream of
+                                returning 'home' someday, but whose nostalgic voyage of discovery isn't always what they hoped it would be."
                             </p>
+
+                            <Container>
+                                <Row>
+                                    <div className="centered">
+                                        <Link to="https://a.co/d/1sblmSo">
+                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
+                                        </Link>
+                                    </div>
+                                </Row>
+                            </Container>
+                            
                         </Col>
-                    </Row>
-                </Container>
-                <Container>
-                    <Row>
-                        <div className="centered">
-                            <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
-                            </Link>
-                        </div>
                     </Row>
                 </Container>
             </Container>

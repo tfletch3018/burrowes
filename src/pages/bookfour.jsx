@@ -23,33 +23,34 @@ function Book4() {
 
                 <Container>
                     <Row id="author">
-                        <Col><img id="bookPics" src={book4} alt="" /></Col>
-                        <Col id="bookText">
-                            <h1>Some Text Here</h1>
+                        <Col><img id="bookPics4" src={book4} alt="" /></Col>
+                        <Col id="bookText4">
+                            <h1 id="bookTitle4">Revolution and Rescue in Grenada An Account of the  U.S.-Carribean Invasion</h1>
+                            <br />
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam 
-                                ac eleifend. Nam et libero id lacus mollis blandit eu vel urna. Nulla turpis sapien, malesuada 
-                                a blandit nec, tincidunt nec quam. Praesent dictum ullamcorper augue vitae dapibus. Maecenas gravida 
-                                quam nec iaculis mattis. Nam iaculis semper quam a iaculis. Aenean in tincidunt nisi. Phasellus a venenatis 
-                                enim. Fusce semper tincidunt tristique. Phasellus cursus, magna in aliquam ornare, turpis turpis maximus nunc, 
-                                at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu. 
-                                Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque, 
-                                bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur, 
-                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
-                            </p>                       
+                            The Burrowes book is well written and provides a balanced if familiar assessment of events. He finds 
+                            fault in the East-West perspective of U.S. foreign policy in the Third World, but his call for greater 
+                            assertiveness by regional groupings to control their own affairs is wishful thinking, given the divisions 
+                            exhibited in this case. Choice Why were so many of America's staunch allies as well as many Congressmen and 
+                            opinion leaders opposed to the joint invasion of Grenada by the United States and the Caribbean neighbors of 
+                            that tiny island-nation? What led to the Grenadian government crisis of 1983, and--above all--was the threat 
+                            perceived by the Reagan administration real? These and related issues are explored in Reynold Burrowes' comprehensive 
+                            account of the Grenada affair, a chapter in modern diplomacy and warfare that remains an enigma to many observers.                            
+                            </p>
+
+                            <Container>
+                                <Row>
+                                    <div className="centered">
+                                        <Link to="https://a.co/d/iyNvwNp">
+                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
+                                        </Link>
+                                    </div>
+                                </Row>
+                            </Container>
+
                         </Col>
                     </Row>
                 </Container>
-                <Container>
-                    <Row>
-                        <div className="centered">
-                            <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book! <i className='fas fa-credit-card'></i></button>
-                            </Link>
-                        </div>
-                    </Row>
-                </Container>
-
             </Container>
         </div>
     )

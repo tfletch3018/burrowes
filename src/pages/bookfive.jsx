@@ -23,33 +23,37 @@ function Book5() {
 
                 <Container>
                     <Row id="author">
-                        <Col><img id="bookPics" src={book5} alt="" /></Col>
-                        <Col id="bookText">
-                            <h1>Some Text Here</h1>
+                        <Col><img id="bookPics4" src={book5} alt="" /></Col>
+                        <Col id="bookText5">
+                            <h1 id="bookTitle">A Destiny To Mould</h1>
+                            <br />
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam
-                                ac eleifend. Nam et libero id lacus mollis blandit eu vel urna. Nulla turpis sapien, malesuada
-                                a blandit nec, tincidunt nec quam. Praesent dictum ullamcorper augue vitae dapibus. Maecenas gravida
-                                quam nec iaculis mattis. Nam iaculis semper quam a iaculis. Aenean in tincidunt nisi. Phasellus a venenatis
-                                enim. Fusce semper tincidunt tristique. Phasellus cursus, magna in aliquam ornare, turpis turpis maximus nunc,
-                                at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu.
-                                Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque,
-                                bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur,
-                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
+                                A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
+                                his break away from Dr. Cheddi Jagan and the People’s Progressive party, the speeches cover Forbes Burnham’s years in
+                                the opposition as leader of the People’s National Congress, his victory at the polls in 1964, his period as leader of a
+                                coalition government, the attainment of independence in 1966, and finally, his leadership of the new Republic of Guyana into
+                                the 1970’s. These speeches provide a contemporary comment on all the most significant points in the recent history of Guyana.
+                                They also reveal Forbes Burnham’s own personality and philosophy: a radical, a leader and a statesman, idealist yet pragmatist,
+                                and above all a champion of the small man.</p>
+                            <p>
+                                The Speeches have been arranged according to theme, rather than chronologically. Kit Nascimento and Reynold Burrowes - the editors 
+                                of the book - have contributed both a full introduction which narrates the sequence of Guyana’s history, and also where necessary, 
+                                short prefaces to the speeches placing them in context.
                             </p>
+
+                            <Container>
+                                <Row>
+                                    <div className="centered">
+                                        <Link to="https://www.thriftbooks.com/w/a-destiny-to-mould-selected-discourses-by-the-prime-minister-of-guyana-forbes-burnham_forbes-burnham/3272201/#edition=7923604">
+                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
+                                        </Link>
+                                    </div>
+                                </Row>
+                            </Container>
+
                         </Col>
                     </Row>
                 </Container>
-                <Container>
-                    <Row>
-                        <div className="centered">
-                            <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book! <i className='fas fa-credit-card'></i></button>
-                            </Link>
-                        </div>
-                    </Row>
-                </Container>
-
             </Container>
         </div>
     )

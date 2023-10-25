@@ -25,31 +25,27 @@ function Book3() {
                     <Row id="author">
                         <Col><img id="bookPics" src={book3} alt="" /></Col>
                         <Col id="bookText">
-                            <h1>Some Text Here</h1>
+                            <h1 id="bookTitle">The Wild Coast: An Account of Politics in Guyana</h1>
+                            <br />
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam 
-                                ac eleifend. Nam et libero id lacus mollis blandit eu vel urna. Nulla turpis sapien, malesuada 
-                                a blandit nec, tincidunt nec quam. Praesent dictum ullamcorper augue vitae dapibus. Maecenas gravida 
-                                quam nec iaculis mattis. Nam iaculis semper quam a iaculis. Aenean in tincidunt nisi. Phasellus a venenatis 
-                                enim. Fusce semper tincidunt tristique. Phasellus cursus, magna in aliquam ornare, turpis turpis maximus nunc, 
-                                at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu. 
-                                Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque, 
-                                bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur, 
-                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
-                            </p>                       
+                            An examination of a Third World nation's struggle for independence and national identity. Describes the 
+                            emergence of the People's Progressive Party and traces the internal dynamics and political impact of the 
+                            groups and individuals that comprise the party.
+                            </p>
+
+                            <Container>
+                                <Row>
+                                    <div className="centered">
+                                        <Link to="https://a.co/d/fvsuVWk">
+                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
+                                        </Link>
+                                    </div>
+                                </Row>
+                            </Container>
+
                         </Col>
                     </Row>
                 </Container>
-                <Container>
-                    <Row>
-                        <div className="centered">
-                            <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book! <i className='fas fa-credit-card'></i></button>
-                            </Link>
-                        </div>
-                    </Row>
-                </Container>
-
             </Container>
         </div>
     )

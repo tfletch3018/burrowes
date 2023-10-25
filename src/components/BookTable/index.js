@@ -1,10 +1,12 @@
+import Container from 'react-bootstrap/Container';
 import { Card1, Card2, Card3, Card4, Card5 } from '../Card/index';
 import './style.css';
 
 function BooksTable() {
   return (
+
+    <Container>
     <div id="bookContainer" className="container">
-      
       <div className="row">
         <div className="col">
           <Card1 />
@@ -21,26 +23,6 @@ function BooksTable() {
           <Card4 />
         </div>
       </div>
-
-
-
-      {/* <div className="row">
-        <div className="col">
-
-          <br />
-          <h1 className='text-center'
-            id="booksSubHeader">
-            Edited
-          </h1>
-          <h2 className='text-center'>
-            <span className="text-center"
-              id="books">by </span>
-            <span id="booksTitle">Reynold Burrowes</span>
-          </h2>
-          <Card5 />
-        </div>
-      </div> */}
-
 
       <div className='container'>
         <div className="row">
@@ -61,6 +43,8 @@ function BooksTable() {
         </div>
       </div>
      </div>
+
+     </Container>
 
   )
 }

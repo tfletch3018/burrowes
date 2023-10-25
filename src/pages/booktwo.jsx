@@ -24,28 +24,29 @@ function Book2() {
                 <Container>
                     <Row id="author">
                         <Col><img id="bookPics" src={book2} alt="" /></Col>
-                        <Col id="bookText">
-                            <h1>Some Text Here</h1>
+                        <Col id="bookText2">
+                            <h1 id="bookTitle">Travels Near and Far</h1>
+                            <br/>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida porttitor quam
-                                ac eleifend. Nam et libero id lacus mollis blandit eu vel urna. Nulla turpis sapien, malesuada
-                                a blandit nec, tincidunt nec quam. Praesent dictum ullamcorper augue vitae dapibus. Maecenas gravida
-                                quam nec iaculis mattis. Nam iaculis semper quam a iaculis. Aenean in tincidunt nisi. Phasellus a venenatis
-                                enim. Fusce semper tincidunt tristique. Phasellus cursus, magna in aliquam ornare, turpis turpis maximus nunc,
-                                at blandit velit dolor vel elit. Cras sed mi ipsum. Etiam lacus leo, euismod vel erat nec, eleifend sollicitudin arcu.
-                                Curabitur sit amet sollicitudin velit, sit amet pulvinar neque. Praesent congue mattis vestibulum. Nullam nisi neque,
-                                bibendum a aliquam vitae, eleifend egestas tellus. Sed vitae libero massa. Nunc nec ante efficitur,
-                                lacinia arcu ac, porta ex. Curabitur et elit eget ligula scelerisque rhoncus.
-                            </p>                        </Col>
-                    </Row>
-                </Container>
-                <Container>
-                    <Row>
-                        <div className="centered">
-                            <Link to="/books">
-                                <button id="bookButton" className='getIt'>Get the Book! <i className='fas fa-credit-card'></i></button>
-                            </Link>
-                        </div>
+                            The four travel essays brought together in this volume represent the trips taken by one family living in the 
+                            huge metropolis of New York. Two of the trips were planned vacations, and two were impromptu weekend visits to get 
+                            away from the confinements of city life, and its reminder of the pressures work. In these essays, we get an insight 
+                            into their motivation for travel, its impact, and the reaction of one member of the family. Reynold Burrowes ably 
+                            chronicles these events with a wit and subtlety which draws his reader in. His wonderful prose gives his readers 
+                            a sense of presence, whether he takes them along with him to a coal mine or a field of flowers.
+                            </p>
+
+                            <Container>
+                                <Row>
+                                    <div className="centered">
+                                        <Link to="https://a.co/d/eFCME5A">
+                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
+                                        </Link>
+                                    </div>
+                                </Row>
+                            </Container>
+
+                        </Col>
                     </Row>
                 </Container>
             </Container>
