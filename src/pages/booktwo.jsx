@@ -15,7 +15,7 @@ function Book2() {
                     <Row>
                         <div className="centered">
                             <Link to="/books">
-                                <button id="bookButton">Go Back</button>
+                                <button id="backButton">Go Back</button>
                             </Link>
                         </div>
                     </Row>
@@ -23,7 +23,7 @@ function Book2() {
 
                 <Container>
                     <Row id="author">
-                        <Col><img id="bookPics" src={book2} alt="" /></Col>
+                        <Col><img id="bookPics2" src={book2} alt="" /></Col>
                         <Col id="bookText2">
                             <h1 id="bookTitle">Travels Near and Far</h1>
                             <br/>
@@ -44,6 +44,7 @@ function Book2() {
                                         </Link>
                                     </div>
                                 </Row>
+                                <br />
                             </Container>
 
                         </Col>

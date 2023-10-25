@@ -15,7 +15,7 @@ function Book4() {
                     <Row>
                         <div className="centered">
                             <Link to="/books">
-                                <button id="bookButton">Go Back</button>
+                                <button id="backButton">Go Back</button>
                             </Link>
                         </div>
                     </Row>
@@ -46,6 +46,7 @@ function Book4() {
                                         </Link>
                                     </div>
                                 </Row>
+                                <br />
                             </Container>
 
                         </Col>

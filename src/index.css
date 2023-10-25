@@ -95,6 +95,20 @@ code {
   color: var(--mint);
   box-shadow: 5px 7px 9px var(--light);
 }
+#backButton {
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: transparent;
+  color: var(--light);
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  box-shadow: 7px 8px 10px var(--mint);
+}
+#backButton:hover {
+  box-shadow: 7px 8px 10px var(--jade);
+}
 
 #booksHeader {
   font-family: 'Anton', sans-serif;
@@ -102,7 +116,6 @@ code {
   color: var(--beige);
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
 }
-
 #booksSubHeader {
   font-family: 'Anton', sans-serif;
   font-size: 30px;
@@ -125,18 +138,21 @@ code {
   text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
 }
 
+.bigBookPic {
+  margin-top: 30px;
+}
 #profilePic {
-  margin: 15px 55px;
+  margin: 55px 55px;
   border-radius: 10px;
   width: 300px;
   height: 500px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
-
-.bigBookPic {
-  margin-top: 30px;
+#authorText {
+  font-size: 25px;
+  margin-top: 15px;
+  padding-right: 65px;
 }
-
 #author {
   margin: 5px 3px;
   font-family: 'Anton', sans-serif;
@@ -181,7 +197,7 @@ code {
 }
 #bookText {
   font-size: 25px;
-  margin-top: 55px;
+  margin-top: 25px;
   padding-right: 65px;
 }
 #bookText2 {
@@ -197,8 +213,15 @@ code {
 #bookTitle4 {
   font-size: 35px;
 }
-#bookPics4 {
+#bookPics2 {
   margin-top: 25px;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
+  margin-bottom: 15px;
+}
+#bookPics4 {
+  margin-top: 45px;
   margin-left: 30px;
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
@@ -231,6 +254,13 @@ code {
 }
 
 @media (max-width:1040px) {
+  #profilePic {
+    margin-top: 75px;
+  }
+  #authorText {
+    font-size: 20px;
+
+  }
   #bookText {
     margin-top: 35px;
     font-size: 16px;
@@ -254,7 +284,10 @@ code {
   #bookTitle {
     font-size: 35px;
   }
+  #bookPics2 {
+    margin-top: 50px;
+  }
   #bookPics4 {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 }
