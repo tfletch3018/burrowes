@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/burrowes/static/css/main.1676cfc3.css",
-    "main.js": "/burrowes/static/js/main.ef7cfdcb.js",
+    "main.css": "/burrowes/static/css/main.84395603.css",
+    "main.js": "/burrowes/static/js/main.9d946705.js",
     "static/media/background.jpg": "/burrowes/static/media/background.e278cc7db5de418798cf.jpg",
     "static/media/newbook.jpg": "/burrowes/static/media/newbook.e4c5f5b6e8aecb63049a.jpg",
     "static/media/book1.jpg": "/burrowes/static/media/book1.4a43037064ce8160cecd.jpg",
@@ -11,11 +11,11 @@
     "static/media/book4.jpg": "/burrowes/static/media/book4.1371be279fca1cd71518.jpg",
     "static/media/profile.jpg": "/burrowes/static/media/profile.b41951946cc73a3aade6.jpg",
     "index.html": "/burrowes/index.html",
-    "main.1676cfc3.css.map": "/burrowes/static/css/main.1676cfc3.css.map",
-    "main.ef7cfdcb.js.map": "/burrowes/static/js/main.ef7cfdcb.js.map"
+    "main.84395603.css.map": "/burrowes/static/css/main.84395603.css.map",
+    "main.9d946705.js.map": "/burrowes/static/js/main.9d946705.js.map"
   },
   "entrypoints": [
-    "static/css/main.1676cfc3.css",
-    "static/js/main.ef7cfdcb.js"
+    "static/css/main.84395603.css",
+    "static/js/main.9d946705.js"
   ]
 }
