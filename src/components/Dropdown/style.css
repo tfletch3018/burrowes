@@ -1,0 +1,14 @@
+a.dropdown-item {
+    color: var(--sky);
+}
+a.dropdown-item:hover {
+    color: var(--jade);
+    background-color: var(--beige);
+}
+a.dropdown-item:active, a.dropdown-item:focus {
+    color: var(--mint);
+    background-color: var(--jade);
+}
+div.dropdown-menu.show {
+    background: transparent;
+}
