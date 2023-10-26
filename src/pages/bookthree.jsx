@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 import book3 from '../images/book3.jpg';
+import { Dropdown3 } from '../components/Dropdown';
 import "../index.css";
 
 function Book3() {
@@ -36,9 +37,7 @@ function Book3() {
                             <Container>
                                 <Row>
                                     <div className="centered">
-                                        <Link to="https://a.co/d/fvsuVWk">
-                                            <button id="bookButton" className='getIt'>Get the Book <i className='fas fa-credit-card'></i></button>
-                                        </Link>
+                                        <Dropdown3 />
                                     </div>
                                 </Row>
                             </Container>
