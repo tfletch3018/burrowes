@@ -23,7 +23,8 @@ function Home() {
             <Container>
                 <div className='centered'>
                     <Link to="/events">
-                        <button id='bookButton'>
+                        <button id='bookButton' 
+                        className='homeButton'>
                             Discover
                         </button>
                     </Link>

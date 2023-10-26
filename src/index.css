@@ -18,11 +18,9 @@
   --chocolate: #993300;
   --rosy: #ff0066;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
-
 
 body {
   margin: 0;
@@ -32,7 +30,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -43,7 +40,6 @@ code {
   width: 100vw;
   min-height: 100vh;
 }
-
 .hero::before {
   content: "";
   position: absolute;
@@ -63,7 +59,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-
 #centered {
   display: flex;
   justify-content: center;
@@ -79,7 +74,6 @@ code {
 .booksContainer {
   margin-top: 30px;
 }
-
 #bookButton {
   border-radius: 5px;
   border-color: transparent;
@@ -90,10 +84,13 @@ code {
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
   box-shadow: 7px 8px 10px var(--mint);
 }
-
 #bookButton:hover {
   color: var(--mint);
   box-shadow: 5px 7px 9px var(--light);
+}
+.homeButton {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px !important;
 }
 #backButton {
   border-radius: 5px;
@@ -129,7 +126,6 @@ code {
   color: var(--light);
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
 }
-
 #booksTitle {
   font-family: 'Lobster', sans-serif;
   font-size: 35px;
@@ -137,10 +133,10 @@ code {
   color: var(--sky);
   text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
 }
-
 .bigBookPic {
   margin-top: 30px;
 }
+
 #profilePic {
   margin: 55px 55px;
   border-radius: 10px;
@@ -163,11 +159,9 @@ code {
   background-image: linear-gradient(to top, var(--chocolate), var(--beige));
   box-shadow: 7px 8px 10px 3px var(--mint);
 }
-
 #author:hover {
   box-shadow: 7px 8px 10px 3px var(--sky)
 }
-
 #authorBio {
   font-family: 'Anton', sans-serif;
   font-size: 16px;
@@ -176,7 +170,6 @@ code {
   border-radius: 10px;
   background-image: linear-gradient(to top, var(--chocolate), var(--beige));
   box-shadow: 7px 8px 10px 3px var(--mint);
-
 }
 
 #eventsPic {
@@ -185,15 +178,11 @@ code {
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
 
-#bookPics {
-  margin-top: 25px;
-  margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
-  margin-bottom: 15px;
-}
 #bookTitle {
   font-size: 45px;
+}
+#bookTitle4 {
+  font-size: 35px;
 }
 #bookText {
   font-size: 25px;
@@ -210,8 +199,18 @@ code {
   margin-top: 25px;
   padding-right: 65px;
 }
-#bookTitle4 {
-  font-size: 35px;
+#bookText5 {
+  font-size: 21px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding-right: 65px;
+}
+#bookPics {
+  margin-top: 25px;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 9px 1px var(--mint);
+  margin-bottom: 15px;
 }
 #bookPics2 {
   margin-top: 25px;
@@ -227,12 +226,7 @@ code {
   box-shadow: 5px 7px 9px 1px var(--mint);
   margin-bottom: 15px;
 }
-#bookText5 {
-  font-size: 21px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  padding-right: 65px;
-}
+
 .getIt {
   margin-top: 10px;
 }
