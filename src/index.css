@@ -284,7 +284,7 @@ code {
     margin-top: 150px;
   }
 }
-@media (max-width:980px) {
+@media (max-width:780px) {
   #homePic {
     width:700px;
     align-items: center;
