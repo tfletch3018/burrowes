@@ -4,7 +4,7 @@ const social = {
     facebook: "https://www.facebook.com/tonya.r.fletcher/",
     twitter: "https://twitter.com/home",
     pinterest: "https://pin.it/3wyVMbG",
-    intentletter: "https://drive.google.com/file/d/1K8V-CV6XZe4kU2-vrrZcvyybP4wmN20a/view?usp=share_link",
+    intentletter: "https://drive.google.com/file/d/1p7ymTu3QvTd1xGzeft9TSjHi3GPwt06T/view?usp=sharing",
 };
 
 export default social;
