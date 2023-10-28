@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/burrowes/static/css/main.c12b40d1.css",
+    "main.css": "/burrowes/static/css/main.120dcbcc.css",
     "main.js": "/burrowes/static/js/main.7809600b.js",
     "static/media/background.jpg": "/burrowes/static/media/background.e278cc7db5de418798cf.jpg",
     "static/media/homeBook.png": "/burrowes/static/media/homeBook.2fdf4c0fba9bc8c57339.png",
@@ -12,11 +12,11 @@
     "static/media/book3.jpg": "/burrowes/static/media/book3.0e70256f043d03cd5679.jpg",
     "static/media/book4.jpg": "/burrowes/static/media/book4.1371be279fca1cd71518.jpg",
     "index.html": "/burrowes/index.html",
-    "main.c12b40d1.css.map": "/burrowes/static/css/main.c12b40d1.css.map",
+    "main.120dcbcc.css.map": "/burrowes/static/css/main.120dcbcc.css.map",
     "main.7809600b.js.map": "/burrowes/static/js/main.7809600b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c12b40d1.css",
+    "static/css/main.120dcbcc.css",
     "static/js/main.7809600b.js"
   ]
 }
