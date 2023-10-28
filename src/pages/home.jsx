@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import '../index.css';
 import { Link } from "react-router-dom";
-// import newbook from '../images/newbook.jpg';
-import newbook1 from '../images/newbook1.png';
+import homeBook from '../images/homeBook.png';
 
 function Home() {
 
@@ -17,7 +16,7 @@ function Home() {
 
             <Container>
                 <div className='centered'>
-                    <img id="homePic" src={newbook1} alt="" />
+                    <img id="homePic" src={homeBook} alt="" />
                 </div>
             </Container>
 
