@@ -15,7 +15,7 @@ const Card1 = () => {
                 <img id="book" src={book1} alt="I Never Said Goodbye" />
                 <Link to="/books/bookone">
                 <button id="bookButton" className='center'>
-                <i className='fas fa-book'></i>
+                <i className='fas fa-book-open'></i>
                 </button>
                 </Link>
             </div>
@@ -30,7 +30,7 @@ const Card2 = () => {
                 <img id="book" src={book2} alt="Travels Near and Far" />
                 <Link to="/books/booktwo">
                 <button id="bookButton" className='center'>
-                <i className='fas fa-book'></i>
+                <i className='fas fa-book-open'></i>
                 </button>                
                 </Link>
             </div>
@@ -45,7 +45,7 @@ const Card3 = () => {
                 <img id="book" src={book3} alt="" />
                 <Link to="/books/bookthree">
                <button id="bookButton" className='center'>
-               <i className='fas fa-book'></i>
+               <i className='fas fa-book-open'></i>
                 </button>                
                 </Link>
             </div>
@@ -60,7 +60,7 @@ const Card4 = () => {
                 <img id="book" src={book4} alt="" />
                 <Link to="/books/bookfour">
                 <button id="bookButton" className='center'>
-                <i className='fas fa-book'></i>
+                <i className='fas fa-book-open'></i>
                 </button>
                 </Link>
             </div>
@@ -75,7 +75,7 @@ const Card5 = () => {
                 <img id="book" src={book5} alt="A Destiny to Mould" />
                 <Link to="/books/bookfive">
                 <button id="bookButton" className='center'>
-                <i className='fas fa-book'></i>
+                <i className='fas fa-book-open'></i>
                 </button>
                 </Link>
             </div>

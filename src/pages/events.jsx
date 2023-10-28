@@ -2,7 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import social from "../social";
-import newbook from '../images/newbook.jpg';
+import eventsBook from '../images/eventsBook.jpg';
+// import newbook from '../images/newbook.jpg';
 import '../index.css';
 
 function Events() {
@@ -28,7 +29,7 @@ function Events() {
 
             <Container id="authorBio">
                 <Row>
-                    <Col><img id='eventsPic' src={newbook} alt="" />
+                    <Col><img id='eventsPic' src={eventsBook} alt="" />
                         <div className='centered'>
                             {
                                 social.intentletter &&

@@ -19,7 +19,8 @@
     color: var(--mint);
     text-decoration: none;
 }
-.navHeader:focus {
+.navHeader:active, 
+:focus {
     color: var(--mint);
 }
 

@@ -66,9 +66,9 @@ code {
 }
 
 #homePic {
-  margin: 15px 55px;
+  margin: 15px;
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  box-shadow: 2px 5px 10px 4px var(--mint);
 }
 
 .booksContainer {
@@ -299,7 +299,8 @@ code {
     width:550px;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
   }
   
 }
