@@ -8,7 +8,6 @@ div.card {
     background-color: transparent;
     box-shadow: 2px 3px 6px 8px var(--sky);
     border-color: transparent !important;
-    /* background-image: linear-gradient(to right, var(--jade), var(--mint),  var(--beige)); */
     padding: 9px 17px;    
 }
 
@@ -55,5 +54,5 @@ i.fas {
     text-align: center;
 }
 i.fas:hover {
-    color: var(--beige);
+    color: var(--jade);
 }

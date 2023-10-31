@@ -180,12 +180,15 @@ code {
 }
 
 #eventsPic {
-  margin-top: 155px;
+  margin-top: 125px;
   border-radius: 10px;
   box-shadow: 5px 7px 9px 1px var(--mint);
 }
-#eventsText {
+#eventsTitle {
   margin-top: 15px;
+}
+#eventsText {
+  margin-top: 25px;
 }
 #Bio {
   text-decoration: none;
