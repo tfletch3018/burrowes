@@ -29,7 +29,7 @@ function Book5() {
                             <h1 id="bookTitle">A Destiny To Mould</h1>
                             <br />
                             <p>
-                                <i class="fa fa-quote-left"></i>
+                                <i className="fa fa-quote-left"></i>
                                 &nbsp;A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
                                 his break away from Dr. Cheddi Jagan and the People’s Progressive party, the speeches cover Forbes Burnham’s years in
                                 the opposition as leader of the People’s National Congress, his victory at the polls in 1964, his period as leader of a
@@ -41,7 +41,7 @@ function Book5() {
                                 The Speeches have been arranged according to theme, rather than chronologically. Kit Nascimento and Reynold Burrowes - the editors
                                 of the book - have contributed both a full introduction which narrates the sequence of Guyana’s history, and also where necessary,
                                 short prefaces to the speeches placing them in context.&nbsp;
-                                <i class="fa fa-quote-right"></i>
+                                <i className="fa fa-quote-right"></i>
                             </p>
 
                             <Container>

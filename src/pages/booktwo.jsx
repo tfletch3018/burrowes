@@ -29,14 +29,14 @@ function Book2() {
                             <h1 id="bookTitle">Travels Near and Far</h1>
                             <br />
                             <p>
-                                <i class="fa fa-quote-left"></i>
+                                <i className="fa fa-quote-left"></i>
                                 &nbsp;The four travel essays brought together in this volume represent the trips taken by one family living in the
                                 huge metropolis of New York. Two of the trips were planned vacations, and two were impromptu weekend visits to get
                                 away from the confinements of city life, and its reminder of the pressures work. In these essays, we get an insight
                                 into their motivation for travel, its impact, and the reaction of one member of the family. Reynold Burrowes ably
                                 chronicles these events with a wit and subtlety which draws his reader in. His wonderful prose gives his readers
                                 a sense of presence, whether he takes them along with him to a coal mine or a field of flowers.&nbsp;
-                                <i class="fa fa-quote-right"></i>
+                                <i className="fa fa-quote-right"></i>
                             </p>
 
                             <Container>
