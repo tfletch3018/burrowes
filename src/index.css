@@ -69,6 +69,12 @@ code {
   margin: 15px;
   border-radius: 10px;
   box-shadow: 2px 5px 10px 4px var(--mint);
+  animation-name: home;
+  animation-duration: 7s;
+}
+@keyframes home {
+  from { opacity: 2%;}
+  to { opacity: 100%;}
 }
 
 .booksContainer {
