@@ -29,9 +29,11 @@ function Book3() {
                             <h1 id="bookTitle">The Wild Coast: An Account of Politics in Guyana</h1>
                             <br />
                             <p>
-                            An examination of a Third World nation's struggle for independence and national identity. Describes the 
+                            <i class="fa fa-quote-left"></i>
+                            &nbsp;An examination of a Third World nation's struggle for independence and national identity. Describes the 
                             emergence of the People's Progressive Party and traces the internal dynamics and political impact of the 
-                            groups and individuals that comprise the party.
+                            groups and individuals that comprise the party.&nbsp;
+                            <i class="fa fa-quote-right"></i>
                             </p>
 
                             <Container>

@@ -29,11 +29,13 @@ function Book1() {
                             <h1 id="bookTitle">I Never Said Goodbye</h1>
                             <br />
                             <p>
-                                "This is the story of one man's return to Guyana, the land of his youth. His return was 35 years in the making,
+                                <i class="fa fa-quote-left"></i>
+                                &nbsp;This is the story of one man's return to Guyana, the land of his youth. His return was 35 years in the making,
                                 back to the country he never expected to leave. Reynold Burrowes travelled to Guyana with others who,
                                 like him, were Guyanese expats hoping to reconnect with family members and old friends. The visit exceeded all
                                 expectations and was both eye-opening and overwhelming. This memoir tells a familiar tale of those who dream of
-                                returning 'home' someday, but whose nostalgic voyage of discovery isn't always what they hoped it would be."
+                                returning 'home' someday, but whose nostalgic voyage of discovery isn't always what they hoped it would be.&nbsp;
+                                <i class="fa fa-quote-right"></i>
                             </p>
 
                             <Container>
@@ -43,7 +45,7 @@ function Book1() {
                                     </div>
                                 </Row>
                             </Container>
-                            
+
                         </Col>
                     </Row>
                 </Container>

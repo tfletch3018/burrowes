@@ -29,7 +29,8 @@ function Book5() {
                             <h1 id="bookTitle">A Destiny To Mould</h1>
                             <br />
                             <p>
-                                A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
+                                <i class="fa fa-quote-left"></i>
+                                &nbsp;A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
                                 his break away from Dr. Cheddi Jagan and the People’s Progressive party, the speeches cover Forbes Burnham’s years in
                                 the opposition as leader of the People’s National Congress, his victory at the polls in 1964, his period as leader of a
                                 coalition government, the attainment of independence in 1966, and finally, his leadership of the new Republic of Guyana into
@@ -37,9 +38,10 @@ function Book5() {
                                 They also reveal Forbes Burnham’s own personality and philosophy: a radical, a leader and a statesman, idealist yet pragmatist,
                                 and above all a champion of the small man.</p>
                             <p>
-                                The Speeches have been arranged according to theme, rather than chronologically. Kit Nascimento and Reynold Burrowes - the editors 
-                                of the book - have contributed both a full introduction which narrates the sequence of Guyana’s history, and also where necessary, 
-                                short prefaces to the speeches placing them in context.
+                                The Speeches have been arranged according to theme, rather than chronologically. Kit Nascimento and Reynold Burrowes - the editors
+                                of the book - have contributed both a full introduction which narrates the sequence of Guyana’s history, and also where necessary,
+                                short prefaces to the speeches placing them in context.&nbsp;
+                                <i class="fa fa-quote-right"></i>
                             </p>
 
                             <Container>

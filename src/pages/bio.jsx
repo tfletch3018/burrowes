@@ -29,7 +29,8 @@ function Bio() {
                     <Col><img id="profilePic" src={profile} alt="" /></Col>
                     <Col id="authorText">
                         <p>
-                        "My journey as a writer began soon after I got my first job. I went to work in the office of the Prime Minister. 
+                        <i class="fa fa-quote-left"></i>
+                        &nbsp;My journey as a writer began soon after I got my first job. I went to work in the office of the Prime Minister. 
                         There I discovered a number of his speeches and, along with a colleague, I edited and submitted them to a 
                         London Publisher. They were published by Longman Green in 1970. In 1971, I came to the USA on a Fulbright scholarship 
                         to study International Relations at the Fletcher School of Law and Diplomacy, Tufts University, Medford Massachusetts. 
@@ -38,12 +39,12 @@ function Bio() {
                         <p>
                         In 1980 I joined JP Morgan on Wall street and began my career as a banker in the USA. Over the years I worked for Dean Witter, 
                         Morgan Stanley and Calyon Financial. During this time, I maintained an interest in Caribbean politics and culture while working 
-                        in banking. I have published two academic books on politics and, more recently, two books of travel essays."
+                        in banking. I have published two academic books on politics and, more recently, two books of travel essays.&nbsp;
+                        <i class="fa fa-quote-right"></i>
                         </p>
                     </Col>
                 </Row>
             </Container>
-
         </>
     )
 }
