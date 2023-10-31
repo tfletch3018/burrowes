@@ -28,9 +28,13 @@ function Events() {
 
             <Container id="authorBio">
                 <Row>
+                    <h1 id="eventsTitle"
+                        className='text-center'>
+                        Missionary John Smith: Slavery and Rebellion in the West Indies
+                    </h1>
                     <Col><img id='eventsPic' src={eventsBook} alt="" />
-                    <br />
-                    <br />
+                        <br />
+                        <br />
 
                         <div className='centered'>
                             {
@@ -46,9 +50,8 @@ function Events() {
                         <br />
                     </Col>
                     <Col>
-                        <h1 id="eventsText" className='text-center'>Missionary John Smith: Slavery and Rebellion in the West Indies</h1>
-                        <p>
-                            <i class="fa fa-quote-left"></i>
+                        <p id="eventsText">
+                            <i className="fa fa-quote-left"></i>
                             &nbsp;My historical novel is titled: Missionary John Smith: Slavery and Rebellion in the West Indies. I chose to write an historical novel
                             because the format allows me to deal with the subject of slavery in a more straightforward way, just as Hilary Mantel used the life
                             of Cromwell to show the inner workings of Henry VIII's court.
@@ -71,11 +74,12 @@ function Events() {
                         <p>
                             I detail the rebellion, Smith's misgivings about it and, ultimately, his trial. While some of the rebels received punishment of 400-1000 lashes
                             others were executed and had their heads paraded on poles for all to see. Lastly, I present the reaction of British citizens, particularly the
-                            abolitionists, to these events in one of their colonies.                         </p>
+                            abolitionists, to these events in one of their colonies.
+                        </p>
                         <p>
                             I hope that you will find my story stimulating, informative and compelling. I have been interested in John Smith's story ever since I was
                             a child..
-                            <i class="fa fa-quote-right"></i>&nbsp;&nbsp;
+                            <i className="fa fa-quote-right"></i> &nbsp;&nbsp;
                             <a id="Bio" href="#Bio">(See Author Bio)
                             </a>
                         </p>
