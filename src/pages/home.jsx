@@ -41,8 +41,7 @@ function Home() {
             <Container>
                 <div className='centered'>
                     <Link to="/events">
-                        <button id='bookButton'
-                            className='homeButton'>
+                        <button id='homeButton'>
                             More...
                         </button>
                     </Link>

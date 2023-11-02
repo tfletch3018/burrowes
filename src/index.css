@@ -74,8 +74,25 @@ code {
 }
 @keyframes home {
   from { opacity: 0%;}
-  to { opacity: 100%; box-shadow: 4px 7px 12px 6px var(--sky);
+  to { opacity: 100%; box-shadow: 4px 7px 12px 6px var(--mint);
   }
+}
+#homeButton {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: transparent;
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  box-shadow: 4px 7px 12px 6px var(--mint);
+  animation-name: home;
+  animation-duration: 7s;
+}
+#homeButton:hover {
+  color: var(--mint);
+  box-shadow: 5px 7px 9px var(--light);
 }
 
 .booksContainer {
@@ -95,10 +112,7 @@ code {
   color: var(--mint);
   box-shadow: 5px 7px 9px var(--light);
 }
-.homeButton {
-  font-family: 'Anton', sans-serif;
-  font-size: 25px !important;
-}
+
 #backButton {
   border-radius: 5px;
   border-color: transparent;
