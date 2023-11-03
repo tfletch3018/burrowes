@@ -8,7 +8,7 @@ Please click on the link in the "About" section of this repository for a preview
 
 <img src="src\images\demo.gif" />
 
-<img src="src\images\screenshot.png" />
+<img src="src\images\Screenshot.png" />
 
 <img src="src\images\Screenshot1.png"> <img src="src\images\Screenshot2.png" />
 
