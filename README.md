@@ -25,3 +25,8 @@ Please click on the link in the "About" section of this repository for a preview
 * Responsive design
 * Smooth user interaction transitioning between pages, facilitated by React-Router-DOM 
 * Portfolio Website
+
+### Get in Touch!
+<a href="https://www.linkedin.com/in/tonya-fletcher-733a9450/"><img src="src\images\linkedin.png"></a> <a href="https://github.com/tfletch3018"><img src="src\images\github.png"></a> <a href="https://www.instagram.com/tfletch4504/"><img src="src\images\instagram.png"></a> <a href="https://www.facebook.com/tonya.r.fletcher/"><img src="src\images\facebook.png"></a> <a href="https://www.tiktok.com/@tfletche3018?is_from_webapp=1&sender_device=pc"><img src="src\images\tiktok.png"></a>
+
+<a href="https://tfletch3018.github.io/The_Portfolio/"><img src="src\images\myBitmoji.png"></a> <a href="https://drive.google.com/file/d/131RLw2MfSL49xRvL0DOoKMkeIvbqPRRE/view"><img src="src\images\resume.png"></a>
