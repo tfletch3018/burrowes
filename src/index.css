@@ -287,12 +287,16 @@ code {
 }
 
 @media screen and (max-width:992px) {
+  #profilePic {
+    margin-top: 23px;
+    margin-left: 45px;
+  }
   #authorBio {
     background-image: linear-gradient(to top, var(--navy), var(--sky));
   }
   #authorText {
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 40px;
   }
   #bookText {
     margin-top: 35px;
@@ -325,7 +329,7 @@ code {
   }
   #eventsPic{
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 7px;
   }
   #eventsTitle {
     margin-top: 20px;;
@@ -343,7 +347,9 @@ code {
   }
   #profilePic {
     margin-top: 25px;
-    width:475px;
+    align-items: center;
+    justify-content: center;
+    width:600px;
   }
   #eventsPic {
     width:475px;
@@ -361,7 +367,8 @@ code {
   }
   #profilePic {
     margin-top: 25px;
-    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
     width:360px;
   }
   #eventsPic {
@@ -389,7 +396,8 @@ code {
   }
   #profilePic {
     margin-top: 25px;
-    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
     width:300px;
   }
   #eventsPic {
