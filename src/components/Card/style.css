@@ -37,13 +37,7 @@ div.card:hover {
     padding: 7px;
     display: flex;
     justify-content: center;
-    align-items: center;
-  
-}
-
-#bookButton:hover {
-    color: var(--mint);
-    box-shadow: 5px 7px 9px var(--light);
+    align-items: center;  
 }
 
 i.fas {

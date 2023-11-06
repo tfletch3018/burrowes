@@ -109,11 +109,11 @@ code {
   font-size: 18px;
   font-weight: 500;
   text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
-  box-shadow: 7px 8px 10px var(--mint);
+  box-shadow: 7px 8px 10px var(--light);
 }
 #bookButton:hover {
   color: var(--mint);
-  box-shadow: 5px 7px 9px var(--light);
+  box-shadow: 7px 8px 10px var(--jade);
 }
 
 #backButton {
@@ -173,7 +173,7 @@ code {
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  box-shadow:1px 3px 5px 6px var(--light);
 }
 #authorText {
   font-size: 23px;
@@ -188,10 +188,7 @@ code {
   color: var(--light);
   text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
   background-image: linear-gradient(to left, var(--navy), var(--sky));
-  box-shadow: 7px 8px 10px 3px var(--mint);
-}
-#author:hover {
-  box-shadow: 7px 8px 10px 3px var(--sky)
+  box-shadow:1px 3px 5px 6px var(--light);
 }
 #authorBio {
   border-radius: 10px;
@@ -200,23 +197,32 @@ code {
   color: var(--light);
   text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
   background-image: linear-gradient(to left, var(--navy), var(--sky));
-  box-shadow: 7px 8px 10px 3px var(--mint);
+  box-shadow: 7px 8px 10px 3px var(--light);
 }
-
-#eventsPic {
-  margin-top: 100px;
+#eventsContainer {
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+  background-image: linear-gradient(to top, var(--navy), var(--sky));
+  box-shadow: 7px 8px 10px 3px var(--light);
+}
+#eventsPic {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow:1px 3px 5px 6px var(--light);
 }
 #eventsTitle {
+  padding-top: 15px;
   margin-top: 15px;
 }
 #eventsText {
-  font-size: 19px;
-  margin-top: 25px;
+  font-size: 23px;
+  margin-top: 5px;
 }
 #eventText {
-  font-size: 19px;
+  font-size: 23px;
 }
 #Bio {
   text-decoration: none;
@@ -226,6 +232,7 @@ code {
 #Bio:hover {
   color: var(--sky)
 }
+
 #bookTitle {
   font-size: 45px;
 }
@@ -257,21 +264,21 @@ code {
   margin-top: 25px;
   margin-left: 30px;
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  box-shadow: 7px 8px 10px 3px var(--light);
   margin-bottom: 15px;
 }
 #bookPics2 {
   margin-top: 25px;
   margin-left: 30px;
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  box-shadow: 7px 8px 10px 3px var(--light);
   margin-bottom: 15px;
 }
 #bookPics4 {
   margin-top: 45px;
   margin-left: 30px;
   border-radius: 10px;
-  box-shadow: 5px 7px 9px 1px var(--mint);
+  box-shadow: 7px 8px 10px 3px var(--light);
   margin-bottom: 15px;
 }
 
@@ -317,14 +324,11 @@ code {
     margin-top: 150px;
   }
   #eventsPic{
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
   }
   #eventsTitle {
     margin-top: 20px;;
-  }
-  #eventsText {
-    margin-top: 5px;
   }
 }
 

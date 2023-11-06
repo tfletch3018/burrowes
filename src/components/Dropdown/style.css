@@ -2,7 +2,7 @@ a.dropdown-item {
     color: var(--sky);
 }
 a.dropdown-item:hover {
-    color: var(--jade);
+    color: var(--mint);
     background-color: var(--beige);
 }
 a.dropdown-item:active, a.dropdown-item:focus {

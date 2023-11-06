@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 import social from "../social";
 import eventsBook from '../images/eventsBook.jpg';
 import '../index.css';
@@ -26,14 +26,19 @@ function Events() {
                 </div>
             </Container>
 
-            <Container id="authorBio">
-                <Row>
+            <Container id="eventsContainer">
+                {/* <Row> */}
                     <h1 id="eventsTitle"
                         className='text-center'>
                         Missionary John Smith: Slavery and Rebellion in the West Indies
                     </h1>
-                    <Col><img id='eventsPic' src={eventsBook} alt="" />
-                        <br />
+                    {/* <Col> */}
+
+                    <div className='centered'>
+                    <img className="centered" id='eventsPic' src={eventsBook} alt="" />
+                        
+                    </div>
+                        {/* <br /> */}
                         <br />
 
                         <div className='centered'>
@@ -48,8 +53,9 @@ function Events() {
                             }
                         </div>
                         <br />
-                    </Col>
-                    <Col>
+                    {/* </Col> */}
+
+                    {/* <Col> */}
                         <p id="eventsText">
                             <i className="fa fa-quote-left"></i>
                             &nbsp;My historical novel is titled: Missionary John Smith: Slavery and Rebellion in the West Indies. I chose to write an historical novel
@@ -83,8 +89,8 @@ function Events() {
                             <a id="Bio" href="#Bio">(See Author Bio)
                             </a>
                         </p>
-                    </Col>
-                </Row>
+                    {/* </Col> */}
+                {/* </Row> */}
                 <br />
             </Container>
         </>
