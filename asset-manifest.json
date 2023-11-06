@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/burrowes/static/css/main.b08e86f6.css",
-    "main.js": "/burrowes/static/js/main.c1856c5a.js",
+    "main.css": "/burrowes/static/css/main.bc989fc5.css",
+    "main.js": "/burrowes/static/js/main.8e949549.js",
     "static/media/background.jpg": "/burrowes/static/media/background.e278cc7db5de418798cf.jpg",
     "static/media/homeBook.png": "/burrowes/static/media/homeBook.2fdf4c0fba9bc8c57339.png",
     "static/media/eventsBook.jpg": "/burrowes/static/media/eventsBook.fe29fb0b1cf57b0a83b1.jpg",
+    "static/media/profile.jpg": "/burrowes/static/media/profile.63028ab278d111e3e436.jpg",
     "static/media/book1.jpg": "/burrowes/static/media/book1.4a43037064ce8160cecd.jpg",
-    "static/media/profile.jpg": "/burrowes/static/media/profile.f8b5d06e78889018b249.jpg",
     "static/media/book2.jpg": "/burrowes/static/media/book2.bd8de06f174df323aeab.jpg",
     "static/media/book5.jpg": "/burrowes/static/media/book5.dcedd24cc4369b52c2fb.jpg",
     "static/media/book3.jpg": "/burrowes/static/media/book3.0e70256f043d03cd5679.jpg",
     "static/media/book4.jpg": "/burrowes/static/media/book4.1371be279fca1cd71518.jpg",
     "index.html": "/burrowes/index.html",
-    "main.b08e86f6.css.map": "/burrowes/static/css/main.b08e86f6.css.map",
-    "main.c1856c5a.js.map": "/burrowes/static/js/main.c1856c5a.js.map"
+    "main.bc989fc5.css.map": "/burrowes/static/css/main.bc989fc5.css.map",
+    "main.8e949549.js.map": "/burrowes/static/js/main.8e949549.js.map"
   },
   "entrypoints": [
-    "static/css/main.b08e86f6.css",
-    "static/js/main.c1856c5a.js"
+    "static/css/main.bc989fc5.css",
+    "static/js/main.8e949549.js"
   ]
 }
