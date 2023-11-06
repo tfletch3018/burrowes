@@ -8,6 +8,8 @@
   --smoky: #737373;
   --dusty: #292f26;
   --sky: #c7d8eb;
+  --bluegray: #6996c9;
+  --navy:#294a70;
   --periwinkle: #ccccff;
   --mint: #ccffe6;
   --tree: #869544;
@@ -17,6 +19,7 @@
   --jade: #004d1a;
   --chocolate: #993300;
   --rosy: #ff0066;
+  --dark:#000000;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
@@ -139,7 +142,6 @@ code {
   font-size: 40px;
   color: var(--sky);
   text-shadow: 2px 3px 7px var(--chocolate), 2px 3px 7px var(--jade);
-
 }
 #booksSubHeader {
   font-family: 'Anton', sans-serif;
@@ -182,22 +184,22 @@ code {
   margin: 5px 3px;
   font-family: 'Anton', sans-serif;
   font-size: 16px;
-  color: var(--light);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
   border-radius: 10px;
-  background-image: linear-gradient(to top, var(--chocolate), var(--beige));
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+  background-image: linear-gradient(to left, var(--navy), var(--sky));
   box-shadow: 7px 8px 10px 3px var(--mint);
 }
 #author:hover {
   box-shadow: 7px 8px 10px 3px var(--sky)
 }
 #authorBio {
+  border-radius: 10px;
   font-family: 'Anton', sans-serif;
   font-size: 16px;
   color: var(--light);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
-  border-radius: 10px;
-  background-image: linear-gradient(to top, var(--chocolate), var(--beige));
+  text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+  background-image: linear-gradient(to left, var(--navy), var(--sky));
   box-shadow: 7px 8px 10px 3px var(--mint);
 }
 
@@ -210,15 +212,19 @@ code {
   margin-top: 15px;
 }
 #eventsText {
+  font-size: 19px;
   margin-top: 25px;
+}
+#eventText {
+  font-size: 19px;
 }
 #Bio {
   text-decoration: none;
-  color: var(--sky);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate) ;
+  color: var(--mint);
+  text-shadow: 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
 }
 #Bio:hover {
-  color: var(--beige)
+  color: var(--sky)
 }
 #bookTitle {
   font-size: 45px;
@@ -274,6 +280,9 @@ code {
 }
 
 @media screen and (max-width:992px) {
+  #authorBio {
+    background-image: linear-gradient(to top, var(--navy), var(--sky));
+  }
   #authorText {
     font-size: 20px;
     margin-left: 25px;
@@ -324,6 +333,9 @@ code {
     width:700px;
     align-items: center;
     justify-content: center;
+  }
+  #author {
+    background-image: linear-gradient(to top, var(--navy), var(--sky));
   }
   #profilePic {
     margin-top: 25px;
