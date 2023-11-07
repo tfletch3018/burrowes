@@ -335,7 +335,6 @@ code {
     margin-top: 20px;;
   }
 }
-
 @media screen and (max-width:768px) {
   #homePic {
     width:700px;
@@ -358,7 +357,6 @@ code {
     margin-top: 10px;
   }  
 }
-
 @media screen and (max-width:576px) {
   #homePic {
     width:380px;
@@ -369,7 +367,7 @@ code {
     margin-top: 25px;
     align-items: center;
     justify-content: center;
-    width:360px;
+    width:300px;
   }
   #eventsPic {
     width:380px;
@@ -379,12 +377,15 @@ code {
   }
   #bookPics {
     width:300px;
+    margin-left: 17px;
   }
   #bookPics2 {
     width:300px;
+    margin-left: 17px;
   }
   #bookPics4 {
     width:300px;
+    margin-left: 17px;
   } 
 }
 
@@ -396,9 +397,10 @@ code {
   }
   #profilePic {
     margin-top: 25px;
+    margin-left: 25px;
     align-items: center;
     justify-content: center;
-    width:300px;
+    width:280px;
   }
   #eventsPic {
     width:320px;
