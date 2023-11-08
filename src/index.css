@@ -232,6 +232,23 @@ code {
 #Bio:hover {
   color: var(--sky)
 }
+#name {
+  font-size: 17px;
+  color: var(--periwinkle);
+  text-shadow: 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+}
+#name:hover {
+  color: var(--beige);
+}
+#copy {
+  color: var(--beige);
+  text-shadow: 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+}
+#copyright {
+  border-radius: 10px;
+  border: transparent;
+  box-shadow: 2px 3px 5px 1px var(--dark);
+}
 
 #bookTitle {
   font-size: 45px;
