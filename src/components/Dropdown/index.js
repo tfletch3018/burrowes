@@ -11,7 +11,6 @@ const Dropdown1 = () => {
         </DropdownButton>
     );
 }
-
 const Dropdown2 = () => {
     return (
         <DropdownButton id='bookButton' title='Get the Book' className='getIt'>
@@ -21,7 +20,6 @@ const Dropdown2 = () => {
         </DropdownButton>
     );
 }
-
 const Dropdown3 = () => {
     return (
         <DropdownButton id='bookButton' title='Get the Book' className='getIt'>
@@ -30,7 +28,6 @@ const Dropdown3 = () => {
         </DropdownButton>
     );
 }
-
 const Dropdown4 = () => {
     return (
         <DropdownButton id='bookButton' title='Get the Book' className='getIt'>
@@ -40,7 +37,6 @@ const Dropdown4 = () => {
         </DropdownButton>
     );
 }
-
 const Dropdown5 = () => {
     return (
         <DropdownButton id='bookButton' title='Get the Book' className='getIt'>
@@ -49,7 +45,6 @@ const Dropdown5 = () => {
         </DropdownButton>
     );
 }
-
 export {
     Dropdown1,
     Dropdown2,

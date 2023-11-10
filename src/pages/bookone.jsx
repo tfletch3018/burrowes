@@ -22,15 +22,11 @@ function Book1() {
                     </Row>
                 </Container>
 
-                {/* <Container className='bigBookPic'> */}
-
                 <Container className='descriptions'>
-                    
+
                     <Container>
                         <h1 className="text-center" id="bookTitle">I Never Said Goodbye</h1>
                     </Container>
-
-                    {/* <Row id=""> */}
 
                     <Container className='flexing'>
                         <Col>
@@ -42,11 +38,7 @@ function Book1() {
                                 height="600" />
                         </Col>
 
-                        {/* <Col><img id="bookPics" src={book1} alt="" /></Col> */}
-
                         <Col id="bookText">
-                            {/* <h1 id="bookTitle">I Never Said Goodbye</h1> */}
-                            {/* <br /> */}
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;This is the story of one man's return to Guyana, the land of his youth. His return was 35 years in the making,
@@ -56,7 +48,6 @@ function Book1() {
                                 returning 'home' someday, but whose nostalgic voyage of discovery isn't always what they hoped it would be.&nbsp;
                                 <i className="fa fa-quote-right"></i>
                             </p>
-
                             <Container>
                                 <Row>
                                     <div className="centered">
@@ -64,16 +55,12 @@ function Book1() {
                                     </div>
                                 </Row>
                             </Container>
-
                         </Col>
 
                     </Container>
-
-                    {/* </Row> */}
                 </Container>
             </Container>
         </div>
     )
 }
-
 export default Book1;

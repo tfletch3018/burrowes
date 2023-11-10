@@ -6,24 +6,17 @@ import homeBook from '../images/homeBook.png';
 function Home() {
 
     return (
-
         <>
             <Container>
                 <div className=''>
                     <h1 id='pageHeaders' className='text-center'>Discover</h1>
                 </div>
             </Container>
-
-            {/* <Container>
-                <div className='centered'>
-                    <img id="homePic" src={homeBook} alt="" />
-                </div>
-            </Container> */}
             
             <Container>
                 <div className='centered'>
                     <img src={homeBook}
-                        alt="hand holding the world"
+                        alt="Arm Reaching Out Holding The World"
                         id="placement"
                         className="responsive homePic"
                         width="640"
@@ -62,5 +55,4 @@ function Home() {
         </>
     )
 }
-
 export default Home;

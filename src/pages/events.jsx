@@ -29,23 +29,13 @@ function Events() {
                     className='text-center'>
                     Missionary John Smith: Slavery and Rebellion in the West Indies
                 </h1>
-
-
-                {/* <div className='centered'>
-                    <img className="centered" id='eventsPic' src={eventsBook} alt="" />
-                </div> */}
-            {/* <Container> */}
                 <div className='centered'>
                     <img src={eventsBook}
                         alt="open book"
-                        id=""
                         className="responsive eventsPic"
                         width="640"
                         height="427" />
                 </div>
-            {/* </Container> */}
-
-
 
                 <br />
 
@@ -102,12 +92,11 @@ function Events() {
                 <br />
                 <br />
                 <div className='centered'>
-                <img className='centered' id='copyright' src={logo} alt='' />
+                <img className='centered' id='copyright' src={logo} alt='Tonya Fletcher Web Designs Logo' />
                 </div>
                 <p id="copy" className="text-center">2023 © Copyright <strong id="name">{social.copyright} </strong>All Rights Reserved</p>
             </Container>
         </>
     )
 }
-
 export default Events;

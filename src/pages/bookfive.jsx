@@ -7,7 +7,6 @@ import { Dropdown5 } from '../components/Dropdown';
 import "../index.css";
 
 function Book5() {
-
     return (
         <div>
             <Container>
@@ -24,34 +23,21 @@ function Book5() {
 
                 <Container className='descriptions'>
 
-                <Container>
+                    <Container>
                         <h1 className="text-center" id="bookTitle">A Destiny To Mould</h1>
                     </Container>
 
-                <Container className='flexing'>
-                    {/* <Row id="author">
-                        <Col><img id="bookPics4" src={book5} alt="" /></Col> */}
-
-<Col>
+                    <Container className='flexing'>
+                        <Col>
                             <img src={book5}
-                                alt="I Never Said Goodbye"
+                                alt="A Destiny To Mould"
                                 id="placement"
                                 className="responsive bookStyle"
                                 width="384"
-                                height="600" 
-                                />
+                                height="600"
+                            />
                         </Col>
-
-
-
-
-
-
-
                         <Col id="bookText">
-                            {/* <h1 id="bookTitle">A Destiny To Mould</h1>
-                            <br /> */}
-
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
@@ -67,24 +53,21 @@ function Book5() {
                                 short prefaces to the speeches placing them in context.&nbsp;
                                 <i className="fa fa-quote-right"></i>
                             </p>
-
                             <Container>
                                 <Row>
                                     <div className="centered">
                                         <Dropdown5 />
                                     </div>
                                 </Row>
-                                {/* <br /> */}
                             </Container>
-
                         </Col>
-                    {/* </Row> */}
+                    </Container>
+
+                    <br />
+                    
                 </Container>
-                <br />
-            </Container>
             </Container>
         </div>
     )
 }
-
 export default Book5;

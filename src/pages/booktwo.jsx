@@ -22,34 +22,21 @@ function Book2() {
                     </Row>
                 </Container>
 
-
-
                 <Container className='descriptions'>
 
                 <Container>
                         <h1 className="text-center" id="bookTitle">Travels Near and Far</h1>
                     </Container>
-
-                    {/* <Row id="author"> */}
-                        {/* <Col><img id="bookPics2" src={book2} alt="" /></Col> */}
-
                         <Container className='flexing'>
-
                         <Col>
                         <img src={book2} 
-                        alt="I Never Said Goodbye"
+                        alt="Travels Near and Far"
                         id="placement" 
                         className="responsive bookStyle" 
                         width="400" 
                         height="600" />
                         </Col>
-
-
-
                         <Col id="bookText">
-                            {/* <h1 id="bookTitle">Travels Near and Far</h1>
-                            <br /> */}
-
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;The four travel essays brought together in this volume represent the trips taken by one family living in the
@@ -60,7 +47,6 @@ function Book2() {
                                 a sense of presence, whether he takes them along with him to a coal mine or a field of flowers.&nbsp;
                                 <i className="fa fa-quote-right"></i>
                             </p>
-
                             <Container>
                                 <Row>
                                     <div className="centered">
@@ -69,14 +55,11 @@ function Book2() {
                                 </Row>
                                 <br />
                             </Container>
-
                         </Col>
-                    {/* </Row> */}
                 </Container>
             </Container>
             </Container>
         </div>
     )
 }
-
 export default Book2;

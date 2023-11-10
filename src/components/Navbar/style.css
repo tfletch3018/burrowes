@@ -4,7 +4,6 @@
     overflow: hidden;
 
 }
-
 .navHeader {
     float: left;
     padding: 17px;
@@ -23,7 +22,6 @@
 :focus {
     color: var(--mint);
 }
-
 .navLinks {
     color: var(--beige);
     text-shadow: 3px 5px 8px var(--jade), 3px 5px 8px var(--chocolate) ;

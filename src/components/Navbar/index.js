@@ -4,10 +4,8 @@ import './style.css';
 function Navbar() {
 
     return (
-
         <div>
             <nav className='myNav'>
-
                 <Link to="/"
                     className="navHeader">
                     Reynold Burrowes
@@ -24,13 +22,10 @@ function Navbar() {
                     className="navLinks">
                     Books
                 </Link>
-
             </nav>
 
             <Outlet />
-
         </div>
     );
 }
-
 export default Navbar;
