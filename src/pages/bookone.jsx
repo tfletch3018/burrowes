@@ -10,7 +10,7 @@ function Book1() {
 
     return (
         <div>
-            <Container fluid>
+            <Container>
 
                 <Container>
                     <Row>
@@ -22,12 +22,31 @@ function Book1() {
                     </Row>
                 </Container>
 
-                <Container className='bigBookPic'>
-                    <Row id="author">
-                        <Col><img id="bookPics" src={book1} alt="" /></Col>
+                {/* <Container className='bigBookPic'> */}
+
+                <Container className='descriptions'>
+                    
+                    <Container>
+                        <h1 className="text-center" id="bookTitle">I Never Said Goodbye</h1>
+                    </Container>
+
+                    {/* <Row id=""> */}
+
+                    <Container className='flexing'>
+                        <Col>
+                            <img src={book1}
+                                alt="I Never Said Goodbye"
+                                id="placement"
+                                className="responsive bookStyle"
+                                width="383"
+                                height="600" />
+                        </Col>
+
+                        {/* <Col><img id="bookPics" src={book1} alt="" /></Col> */}
+
                         <Col id="bookText">
-                            <h1 id="bookTitle">I Never Said Goodbye</h1>
-                            <br />
+                            {/* <h1 id="bookTitle">I Never Said Goodbye</h1> */}
+                            {/* <br /> */}
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;This is the story of one man's return to Guyana, the land of his youth. His return was 35 years in the making,
@@ -47,7 +66,10 @@ function Book1() {
                             </Container>
 
                         </Col>
-                    </Row>
+
+                    </Container>
+
+                    {/* </Row> */}
                 </Container>
             </Container>
         </div>

@@ -27,13 +27,13 @@ function BooksTable() {
       <div className='container'>
         <div className="row">
           <h1 className='text-center'
-            id="booksSubHeader">
+            id="editedBy">
             Edited
           </h1>
           <h2 className='text-center'>
             <span className="text-center"
-              id="books">by </span>
-            <span id="booksTitle">Reynold Burrowes</span>
+              id="writtenBy">by </span>
+            <span id="authorName">Reynold Burrowes</span>
           </h2>
         </div>
         <div className="centered">

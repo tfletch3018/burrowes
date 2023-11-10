@@ -62,13 +62,19 @@ code {
   justify-content: center;
   align-items: center;
 }
-#centered {
+/* #centered {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-#homePic {
+#pageHeaders {
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  color: var(--beige);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
+}
+.homePic {
   margin: 15px;
   border-radius: 10px;
   box-shadow: 4px 7px 12px 6px var(--mint);
@@ -79,6 +85,12 @@ code {
   from { opacity: 0%;}
   to { opacity: 100%; box-shadow: 4px 7px 12px 6px var(--mint);
   }
+}
+.homeSubHeader {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color: var(--sky);
+  text-shadow: 2px 3px 7px var(--chocolate), 2px 3px 7px var(--jade);
 }
 #homeButton {
   font-family: 'Anton', sans-serif;
@@ -96,6 +108,19 @@ code {
 #homeButton:hover {
   color: var(--mint);
   box-shadow: 5px 7px 9px var(--light);
+}
+#writtenBy {
+  font-size: 25px;
+  font-family: 'Lobster', sans-serif;
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+}
+#authorName {
+  font-family: 'Lobster', sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  color: var(--sky);
+  text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
 }
 
 .booksContainer {
@@ -115,6 +140,12 @@ code {
   color: var(--mint);
   box-shadow: 7px 8px 10px var(--jade);
 }
+#editedBy {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  color: var(--beige);
+  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
+}
 
 #backButton {
   border-radius: 5px;
@@ -130,58 +161,75 @@ code {
 #backButton:hover {
   box-shadow: 7px 8px 10px var(--jade);
 }
-
-#booksHeader {
-  font-family: 'Anton', sans-serif;
-  font-size: 60px;
-  color: var(--beige);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
+#bookTitle {
+  padding-top: 10px;
+  font-size: 45px;
 }
-.homeSubHeader {
-  font-family: 'Anton', sans-serif;
-  font-size: 40px;
-  color: var(--sky);
-  text-shadow: 2px 3px 7px var(--chocolate), 2px 3px 7px var(--jade);
-}
-#booksSubHeader {
-  font-family: 'Anton', sans-serif;
-  font-size: 30px;
-  color: var(--beige);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--chocolate);
-}
-
-#books {
+#bookText {
   font-size: 25px;
-  font-family: 'Lobster', sans-serif;
+  margin-top: 25px;
+}
+.descriptions {
+  margin: 15px;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
   color: var(--light);
-  text-shadow: 2px 3px 7px var(--jade), 2px 3px 7px var(--smoky);
+  text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+  background-image: linear-gradient(to left, var(--navy), var(--sky));
+  box-shadow:1px 3px 5px 6px var(--light);  
 }
-#booksTitle {
-  font-family: 'Lobster', sans-serif;
-  font-size: 35px;
-  text-decoration: none;
-  color: var(--sky);
-  text-shadow: 3px 4px 8px var(--chocolate), 3px 4px 8px var(--jade);
+.flexing {
+display: flex;
+justify-content: center;
+flex-direction: row;
 }
-.bigBookPic {
-  margin-top: 30px;
+.responsive {
+  max-width:100%;
+  height: auto;
 }
-
-#profilePic {
-  margin-left: 15px;
+.bookStyle {
+  border-radius: 10px;
+  border-color: transparent;
+  background-size:cover;
+  box-shadow: 7px 8px 10px 3px var(--light);
+}
+#placement {
+  margin: 25px;
+}
+.getIt {
+  margin-top: 10px;
+}
+div#authorBio.authorFlex.container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.authorFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  }
+  #authorPlacement {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+.profilePic {
+  /* margin-left: 15px;
   margin-right: 15px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; */
   border-radius: 10px;
   box-shadow:1px 3px 5px 6px var(--light);
 }
 #authorText {
   font-size: 23px;
-  margin-top: 25px;
-  padding-right: 65px;
+  margin-top: 30px;
+  /* padding-right: 65px; */
 }
 #author {
-  margin: 5px 3px;
+  /* margin: 5px 3px; */
   font-family: 'Anton', sans-serif;
   font-size: 16px;
   border-radius: 10px;
@@ -199,6 +247,7 @@ code {
   background-image: linear-gradient(to left, var(--navy), var(--sky));
   box-shadow: 7px 8px 10px 3px var(--light);
 }
+
 #eventsContainer {
   border-radius: 10px;
   font-family: 'Anton', sans-serif;
@@ -208,7 +257,7 @@ code {
   background-image: linear-gradient(to top, var(--navy), var(--sky));
   box-shadow: 7px 8px 10px 3px var(--light);
 }
-#eventsPic {
+.eventsPic {
   margin-top: 15px;
   border-radius: 10px;
   box-shadow:1px 3px 5px 6px var(--light);
@@ -221,7 +270,7 @@ code {
   font-size: 23px;
   margin-top: 5px;
 }
-#eventText {
+#eventTextBody {
   font-size: 23px;
 }
 #Bio {
@@ -250,192 +299,114 @@ code {
   box-shadow: 2px 3px 5px 1px var(--dark);
 }
 
-#bookTitle {
-  font-size: 45px;
-}
-#bookTitle4 {
-  font-size: 35px;
-}
-#bookText {
-  font-size: 25px;
-  margin-top: 25px;
-  padding-right: 65px;
-}
-#bookText2 {
-  font-size: 25px;
-  margin-top: 25px;
-  padding-right: 65px;
-}
-#bookText4 {
-  font-size: 21px;
-  margin-top: 25px;
-  padding-right: 65px;
-}
-#bookText5 {
-  font-size: 21px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  padding-right: 65px;
-}
-#bookPics {
-  margin-top: 25px;
-  margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 7px 8px 10px 3px var(--light);
-  margin-bottom: 15px;
-}
-#bookPics2 {
-  margin-top: 25px;
-  margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 7px 8px 10px 3px var(--light);
-  margin-bottom: 15px;
-}
-#bookPics4 {
-  margin-top: 45px;
-  margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 7px 8px 10px 3px var(--light);
-  margin-bottom: 15px;
-}
-
-.getIt {
-  margin-top: 10px;
-}
 
 @media screen and (max-width:992px) {
-  #profilePic {
-    margin-top: 23px;
-    margin-left: 45px;
+  #bookText {
+    margin-left: 20px;
+    font-size: 17px;
+    padding-right: 2px;
+  }
+  #bookTitle {
+    font-size: 35px;
+  }
+.authorFlex {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .profilePic {
+  align-items: center;
+  justify-content: center;    
   }
   #authorBio {
     background-image: linear-gradient(to top, var(--navy), var(--sky));
   }
   #authorText {
     font-size: 20px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
   }
-  #bookText {
-    margin-top: 35px;
-    font-size: 16px;
-    padding-right: 2px;
-  }
-  #bookText2 {
-    margin-top: 15px;
-    font-size: 16px;
-    padding-right: 2px;
-  }
-  #bookText4 {
-    margin-top: 15px;
-    font-size: 16px;
-    padding-right: 2px;
-  }
-  #bookText5 {
-    margin-top: 15px;
-    font-size: 16px;
-    padding-right: 2px;
-  }
-  #bookTitle {
-    font-size: 35px;
-  }
-  #bookPics2 {
-    margin-top: 50px;
-  }
-  #bookPics4 {
-    margin-top: 150px;
-  }
-  #eventsPic{
+  /* #eventsPic{
     margin-top: 20px;
     margin-left: 7px;
-  }
-  #eventsTitle {
+  } */
+  /* #eventsTitle {
     margin-top: 20px;;
-  }
+  } */
 }
+
 @media screen and (max-width:768px) {
-  #homePic {
+  /* #homePic {
     width:700px;
     align-items: center;
     justify-content: center;
-  }
+  } */
   #author {
     background-image: linear-gradient(to top, var(--navy), var(--sky));
   }
-  #profilePic {
+  /* #profilePic {
     margin-top: 25px;
     align-items: center;
     justify-content: center;
     width:600px;
-  }
-  #eventsPic {
+  } */
+  /* #eventsPic {
     width:475px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-  }  
+  }   */
 }
 @media screen and (max-width:576px) {
-  #homePic {
+  /* #homePic {
     width:380px;
     align-items: center;
     justify-content: center;
-  }
-  #profilePic {
-    margin-top: 25px;
+  } */
+  /* .profilePic {
+
     align-items: center;
     justify-content: center;
-    width:300px;
-  }
-  #eventsPic {
+  } */
+  /* #eventsPic {
     width:380px;
     margin-left:7px;
     align-items: center;
     justify-content: center;
+  } */
+  .flexing {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
   }
-  #bookPics {
-    width:300px;
-    margin-left: 17px;
+}
+@media (min-width: 501px) and (max-width: 575px) {
+  #placement {
+    margin:15px;
   }
-  #bookPics2 {
-    width:300px;
-    margin-left: 17px;
+}
+@media (min-width: 361px) and (max-width: 500px) {
+  #placement {
+    margin:0px;
   }
-  #bookPics4 {
-    width:300px;
-    margin-left: 17px;
-  } 
 }
 
+
 @media screen and (max-width:360px) {
-  #homePic {
+  /* #homePic {
     width:320px;
     align-items: center;
     justify-content: center;
-  }
-  #profilePic {
+  } */
+  /* #profilePic {
     margin-top: 25px;
     margin-left: 25px;
     align-items: center;
     justify-content: center;
     width:280px;
-  }
-  #eventsPic {
-    width:320px;
-    margin-left:7px;
+  } */
+  /* #eventsPic {
     align-items: center;
     justify-content: center;
-  }
-  #bookPics {
-    width:250px;
-    margin-left:15px;
-  }
-  #bookPics2 {
-    width:250px;
-    margin-left:15px;
-  }
-  #bookPics4 {
-    width:250px;
-    margin-left:15px;
-    margin-top: 30px;
-  } 
+  } */
 }

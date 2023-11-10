@@ -10,7 +10,7 @@ function Book5() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 20 }}>
+            <Container>
 
                 <Container>
                     <Row>
@@ -22,12 +22,36 @@ function Book5() {
                     </Row>
                 </Container>
 
+                <Container className='descriptions'>
+
                 <Container>
-                    <Row id="author">
-                        <Col><img id="bookPics4" src={book5} alt="" /></Col>
-                        <Col id="bookText5">
-                            <h1 id="bookTitle">A Destiny To Mould</h1>
-                            <br />
+                        <h1 className="text-center" id="bookTitle">A Destiny To Mould</h1>
+                    </Container>
+
+                <Container className='flexing'>
+                    {/* <Row id="author">
+                        <Col><img id="bookPics4" src={book5} alt="" /></Col> */}
+
+<Col>
+                            <img src={book5}
+                                alt="I Never Said Goodbye"
+                                id="placement"
+                                className="responsive bookStyle"
+                                width="384"
+                                height="600" 
+                                />
+                        </Col>
+
+
+
+
+
+
+
+                        <Col id="bookText">
+                            {/* <h1 id="bookTitle">A Destiny To Mould</h1>
+                            <br /> */}
+
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;A Destiny to Mould is a selection of Mr. Burnham’s speeches and public statements from 1955 to 1969. Beginning with
@@ -50,12 +74,14 @@ function Book5() {
                                         <Dropdown5 />
                                     </div>
                                 </Row>
-                                <br />
+                                {/* <br /> */}
                             </Container>
 
                         </Col>
-                    </Row>
+                    {/* </Row> */}
                 </Container>
+                <br />
+            </Container>
             </Container>
         </div>
     )

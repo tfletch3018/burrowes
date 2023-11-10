@@ -10,16 +10,27 @@ function Home() {
         <>
             <Container>
                 <div className=''>
-                    <h1 id='booksHeader' className='text-center'>Discover</h1>
+                    <h1 id='pageHeaders' className='text-center'>Discover</h1>
                 </div>
             </Container>
 
-            <Container>
+            {/* <Container>
                 <div className='centered'>
                     <img id="homePic" src={homeBook} alt="" />
                 </div>
+            </Container> */}
+            
+            <Container>
+                <div className='centered'>
+                    <img src={homeBook}
+                        alt="hand holding the world"
+                        id="placement"
+                        className="responsive homePic"
+                        width="640"
+                        height="411" />
+                </div>
             </Container>
-
+            
             <Container>
                 <div className='centered'>
                     <h1 className='homeSubHeader'>Missionary John Smith: Slavery and Rebellion in the West Indies
@@ -27,14 +38,14 @@ function Home() {
                     <br />
                 </div>
             </Container>
-            
+
             <Container>
                 <div>
                     <h2 className='text-center'>
-                    <span className="text-center"
-                        id="books">by </span>
-                    <span id="booksTitle">Reynold Burrowes</span>
-                </h2>
+                        <span className="text-center"
+                            id="writtenBy">by </span>
+                        <span id="authorName">Reynold Burrowes</span>
+                    </h2>
                 </div>
             </Container>
 

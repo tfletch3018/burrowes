@@ -10,7 +10,7 @@ function Book2() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 20 }}>
+            <Container>
 
                 <Container>
                     <Row>
@@ -22,12 +22,34 @@ function Book2() {
                     </Row>
                 </Container>
 
+
+
+                <Container className='descriptions'>
+
                 <Container>
-                    <Row id="author">
-                        <Col><img id="bookPics2" src={book2} alt="" /></Col>
-                        <Col id="bookText2">
-                            <h1 id="bookTitle">Travels Near and Far</h1>
-                            <br />
+                        <h1 className="text-center" id="bookTitle">Travels Near and Far</h1>
+                    </Container>
+
+                    {/* <Row id="author"> */}
+                        {/* <Col><img id="bookPics2" src={book2} alt="" /></Col> */}
+
+                        <Container className='flexing'>
+
+                        <Col>
+                        <img src={book2} 
+                        alt="I Never Said Goodbye"
+                        id="placement" 
+                        className="responsive bookStyle" 
+                        width="400" 
+                        height="600" />
+                        </Col>
+
+
+
+                        <Col id="bookText">
+                            {/* <h1 id="bookTitle">Travels Near and Far</h1>
+                            <br /> */}
+
                             <p>
                                 <i className="fa fa-quote-left"></i>
                                 &nbsp;The four travel essays brought together in this volume represent the trips taken by one family living in the
@@ -49,8 +71,9 @@ function Book2() {
                             </Container>
 
                         </Col>
-                    </Row>
+                    {/* </Row> */}
                 </Container>
+            </Container>
             </Container>
         </div>
     )

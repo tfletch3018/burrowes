@@ -10,7 +10,7 @@ function Book3() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 20 }}>
+            <Container>
 
                 <Container>
                     <Row>
@@ -22,12 +22,32 @@ function Book3() {
                     </Row>
                 </Container>
 
+
+                <Container className='descriptions'>
+
                 <Container>
-                    <Row id="author">
-                        <Col><img id="bookPics" src={book3} alt="" /></Col>
+                        <h1 className="text-center" id="bookTitle">The Wild Coast: An Account of Politics in Guyana</h1>
+                    </Container>
+
+                    {/* <Row id="author">
+                        <Col><img id="bookPics" src={book3} alt="" /></Col> */}
+
+<Container className='flexing'>
+                        <Col>
+                        <img src={book3} 
+                        alt="I Never Said Goodbye"
+                        id="placement" 
+                        className="responsive bookStyle" 
+                        width="400" 
+                        height="600" />
+                        </Col>
+
+
                         <Col id="bookText">
-                            <h1 id="bookTitle">The Wild Coast: An Account of Politics in Guyana</h1>
-                            <br />
+
+                            {/* <h1 id="bookTitle">The Wild Coast: An Account of Politics in Guyana</h1>
+                            <br /> */}
+
                             <p>
                             <i className="fa fa-quote-left"></i>
                             &nbsp;An examination of a Third World nation's struggle for independence and national identity. Describes the 
@@ -45,8 +65,9 @@ function Book3() {
                             </Container>
 
                         </Col>
-                    </Row>
+                    {/* </Row> */}
                 </Container>
+            </Container>
             </Container>
         </div>
     )

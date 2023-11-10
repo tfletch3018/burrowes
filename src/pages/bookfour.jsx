@@ -10,7 +10,7 @@ function Book4() {
 
     return (
         <div>
-            <Container fluid style={{ marginTop: 20 }}>
+            <Container>
 
                 <Container>
                     <Row>
@@ -22,12 +22,33 @@ function Book4() {
                     </Row>
                 </Container>
 
+                <Container className='descriptions'>
+
                 <Container>
-                    <Row id="author">
-                        <Col><img id="bookPics4" src={book4} alt="" /></Col>
-                        <Col id="bookText4">
-                            <h1 id="bookTitle4">Revolution and Rescue in Grenada An Account of the  U.S.-Carribean Invasion</h1>
-                            <br />
+                        <h1 className="text-center" id="bookTitle">Revolution and Rescue in Grenada</h1>
+                        <h2 className="text-center">An Account of the U.S.-Carribean Invasion</h2>
+                    </Container>
+
+                    {/* <Row id="author">
+                        <Col><img id="bookPics4" src={book4} alt="" /></Col> */}
+                        
+                        {/* <Col> */}
+                        <Container className='flexing'>
+                        <Col>
+                        <img src={book4} 
+                        alt="I Never Said Goodbye"
+                        id="placement" 
+                        className="responsive bookStyle" 
+                        width="364" 
+                        height="600" />
+                        </Col>
+
+
+
+                        <Col className='balance' id="bookText">
+                            {/* <h1 id="bookTitle">Revolution and Rescue in Grenada An Account of the  U.S.-Carribean Invasion</h1>
+                            <br /> */}
+
                             <p>
                             <i className="fa fa-quote-left"></i>
                             &nbsp;The Burrowes book is well written and provides a balanced if familiar assessment of events. He finds 
@@ -51,8 +72,9 @@ function Book4() {
                             </Container>
 
                         </Col>
-                    </Row>
+                    {/* </Row> */}
                 </Container>
+            </Container>
             </Container>
         </div>
     )
