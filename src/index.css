@@ -62,11 +62,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-/* #centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 #pageHeaders {
   font-family: 'Anton', sans-serif;
@@ -200,6 +195,7 @@ flex-direction: row;
 .getIt {
   margin-top: 10px;
 }
+
 div#authorBio.authorFlex.container { 
   display: flex;
   align-items: center;
@@ -216,20 +212,14 @@ div#authorBio.authorFlex.container {
     margin-bottom: 25px;
   }
 .profilePic {
-  /* margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px; */
   border-radius: 10px;
   box-shadow:1px 3px 5px 6px var(--light);
 }
 #authorText {
   font-size: 23px;
   margin-top: 30px;
-  /* padding-right: 65px; */
 }
 #author {
-  /* margin: 5px 3px; */
   font-family: 'Anton', sans-serif;
   font-size: 16px;
   border-radius: 10px;
@@ -299,7 +289,6 @@ div#authorBio.authorFlex.container {
   box-shadow: 2px 3px 5px 1px var(--dark);
 }
 
-
 @media screen and (max-width:992px) {
   #bookText {
     margin-left: 20px;
@@ -323,56 +312,14 @@ div#authorBio.authorFlex.container {
   }
   #authorText {
     font-size: 20px;
-    /* margin-left: 40px; */
   }
-  /* #eventsPic{
-    margin-top: 20px;
-    margin-left: 7px;
-  } */
-  /* #eventsTitle {
-    margin-top: 20px;;
-  } */
 }
-
 @media screen and (max-width:768px) {
-  /* #homePic {
-    width:700px;
-    align-items: center;
-    justify-content: center;
-  } */
   #author {
     background-image: linear-gradient(to top, var(--navy), var(--sky));
   }
-  /* #profilePic {
-    margin-top: 25px;
-    align-items: center;
-    justify-content: center;
-    width:600px;
-  } */
-  /* #eventsPic {
-    width:475px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-  }   */
 }
 @media screen and (max-width:576px) {
-  /* #homePic {
-    width:380px;
-    align-items: center;
-    justify-content: center;
-  } */
-  /* .profilePic {
-
-    align-items: center;
-    justify-content: center;
-  } */
-  /* #eventsPic {
-    width:380px;
-    margin-left:7px;
-    align-items: center;
-    justify-content: center;
-  } */
   .flexing {
    flex-direction: column;
    align-items: center;
@@ -389,24 +336,4 @@ div#authorBio.authorFlex.container {
   #placement {
     margin:0px;
   }
-}
-
-
-@media screen and (max-width:360px) {
-  /* #homePic {
-    width:320px;
-    align-items: center;
-    justify-content: center;
-  } */
-  /* #profilePic {
-    margin-top: 25px;
-    margin-left: 25px;
-    align-items: center;
-    justify-content: center;
-    width:280px;
-  } */
-  /* #eventsPic {
-    align-items: center;
-    justify-content: center;
-  } */
 }
