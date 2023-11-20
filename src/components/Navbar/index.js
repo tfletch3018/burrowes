@@ -10,6 +10,10 @@ function Navbar() {
                     className="navHeader">
                     Reynold Burrowes
                 </Link> {" "}
+                <Link to="/contact"
+                    className="navLinks">
+                    Contact
+                </Link>
                 <Link to="/events"
                     className="navLinks">
                     Events

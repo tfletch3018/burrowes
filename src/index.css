@@ -289,6 +289,24 @@ div#authorBio.authorFlex.container {
   box-shadow: 2px 3px 5px 1px var(--dark);
 }
 
+.contactPage {
+  margin-bottom:50px;
+}
+#contact {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, var(--navy), var(--sky));
+  box-shadow: 7px 8px 10px 3px var(--light);
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+#contactInfo {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  color: var(--light);
+  text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+}
+
+
 @media screen and (max-width:992px) {
   #bookText {
     margin-left: 20px;

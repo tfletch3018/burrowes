@@ -41,12 +41,12 @@ div.card:hover {
 }
 
 i.fas {
-    color: var(--sky);
-    text-shadow: 2px 3px 7px var(--chocolate), 2px 3px 7px var(--mint) ;
-    font-size: 20px;
+    color: var(--);
+    text-shadow: 2px 3px 7px var(--navy), 2px 3px 7px var(--dark), 2px 3px 7px var(--dark);
+    font-size: 25px;
     font-weight:bolder;
     text-align: center;
 }
 i.fas:hover {
-    color: var(--jade);
+    color: var(--sky);
 }
